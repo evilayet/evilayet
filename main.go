@@ -10,7 +10,8 @@ import (
 func main() {
 	r := mux.NewRouter()
 
-	r.HandleFunc("/city", city.GetCities).Methods("GET")
+	r.HandleFunc("/cities", city.GetCities).Methods("GET")
+	r.HandleFunc("/city", city.GetCity).Methods("GET")
 
 	log.Fatal(http.ListenAndServe(":8080", r))
 }
