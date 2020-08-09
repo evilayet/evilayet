@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"strings"
+	"unicode"
 )
 
 type City struct {
@@ -42,9 +43,11 @@ func GetCities(w http.ResponseWriter, r *http.Request) {
 func GetCity(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	name := r.URL.Query().Get("name")
-	
+
+	log.Println(name)
+
 	for _, item := range cities {
-		if strings.Contains(item.CityName, strings.Title(name)) {
+		if strings.Contains(strings.ToLowerSpecial(unicode.TurkishCase, item.CityName), name) {
 			json.NewEncoder(w).Encode(item)
 			return
 		}
