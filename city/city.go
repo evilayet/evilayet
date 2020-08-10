@@ -2,12 +2,12 @@ package city
 
 import (
 	"encoding/json"
+	"github.com/enesusta/balyoz/text"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"strings"
-	"unicode"
 )
 
 type City struct {
@@ -45,9 +45,11 @@ func GetCity(w http.ResponseWriter, r *http.Request) {
 	name := r.URL.Query().Get("name")
 
 	log.Println(name)
+	log.Println(text.CapitalizeWithTurkish(name))
 
 	for _, item := range cities {
-		if strings.Contains(strings.ToLowerSpecial(unicode.TurkishCase, item.CityName), name) {
+		//if strings.Contains(strings.ToLowerSpecial(unicode.TurkishCase, item.CityName), name) {
+		if strings.Contains(item.CityName, text.CapitalizeWithTurkish(name)) {
 			json.NewEncoder(w).Encode(item)
 			return
 		}
