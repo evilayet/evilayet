@@ -23,6 +23,7 @@ func main() {
 	r.HandleFunc("/villages", village.GetAllVillages).Methods("GET")
 	r.HandleFunc("/villages/{provinceName}", village.GetVillagesOfProvince).Methods("GET")
 	r.HandleFunc("/villages/{provinceName}/{countyName}", village.GetVillagesOfCounty).Methods("GET")
+	r.HandleFunc("/villages/{provinceName}/{countyName}/{townName}", village.GetVillagesOfTown).Methods("GET")
 
 
 	log.Fatal(http.ListenAndServe(":8080", r))

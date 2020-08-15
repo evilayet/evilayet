@@ -84,3 +84,26 @@ func GetVillagesOfCounty(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 }
+
+func GetVillagesOfTown(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	provinceName := mux.Vars(r)["provinceName"]
+	countyName := mux.Vars(r)["countyName"]
+	townName := mux.Vars(r)["townName"]
+
+	for _, item := range provinces {
+		if strings.Contains(item.ProvinceName, text.CapitalizeWithTurkish(provinceName)) {
+			for _, nest := range item.ProvinceCounties {
+				if strings.Contains(nest.CountyName, text.CapitalizeWithTurkish(countyName)) {
+					for _, town := range nest.CountyTowns {
+						if strings.Contains(town.TownName, text.CapitalizeWithTurkish(townName)) {
+							json.NewEncoder(w).Encode(town)
+							return
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
