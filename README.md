@@ -39,6 +39,8 @@
       - [Sample Response](#sample-response-7)
     - [/villages](#villages)
     - [/villages/{provinceName}](#villagesprovincename)
+      - [Sample Request](#sample-request-8)
+      - [Sample Response](#sample-response-8)
     - [/villages/{provinceName}/{countyName}](#villagesprovincenamecountyname)
     - [/villages/{provinceName}/{countyName}/{townName}](#villagesprovincenamecountynametownname)
 
@@ -154,7 +156,7 @@ tzone-parser is not only parsed the file. It also `provides relational data` for
 
 ### `/provinces`
 
-This endpoint returns all provinces and their names that Turkey has.
+> This endpoint returns all provinces and their names that Turkey has.
 
 #### Sample Request 1
 
@@ -257,7 +259,7 @@ http://localhost:8080/provinces
 
 <br/>
 
-This endpoint returns a specific province `given by parameter.`
+> This endpoint returns a specific province `by the given parameter.`
 
 ### Sample Request 2
 
@@ -273,7 +275,7 @@ http://localhost:8080/provinces/edirne
 
 ### `/counties`
 
-This endpoint returns all counties and their names that Turkey has.
+> This endpoint returns all counties and their names that Turkey has.
 
 ### Sample Request 3
 
@@ -323,6 +325,8 @@ Responded data bigger is than the sample.
 | Param | Type | Description |
 | -- | -- | -- |
 | provinceName | string | The name of the province that you would like to get information about its counties. |
+
+> This endpoint returns all counties and their names by the given parameter..
 
 #### Sample Request 4
 
@@ -378,7 +382,7 @@ http://localhost:8080/counties/istanbul
 
 ### /towns
 
-This endpoint returns all towns and their names that Turkey has.
+> This endpoint returns all towns and their names that Turkey has.
 
 #### Sample Request 5
 
@@ -479,6 +483,8 @@ http://localhost:8080/towns
 | Param | Type | Description |
 | -- | -- | -- |
 | provinceName | string | The name of the province that you would like to get information about its counties and towns. |
+
+> This endpoint returns all towns and their names by the given parameter..
 
 #### Sample Request 6
 
@@ -596,6 +602,16 @@ This endpoint returns all villages with their name and their zip-code that Turke
 | -- | -- | -- |
 | provinceName | string | The name of the province that you would like to get information about its counties, towns and villages. |
 
+
+> This endpoint returns all villages with their name and their zip-code `by the given parameter.`
+
+#### Sample Request 8
+
+```http
+http://localhost:8080/villages/edirne
+```
+
+#### Sample Response 8
 
 ```json
 {
@@ -1149,9 +1165,152 @@ This endpoint returns all villages with their name and their zip-code that Turke
 
 ### /villages/{provinceName}/{countyName}
 
+| Param | Type | Description |
+| -- | -- | -- |
+| provinceName | string | The name of the province that you would like to get information about its counties, towns and villages. |
+| countyName | string | The name of the county that you would like to get information about its towns and villages. |
+
+
+> This endpoint returns all villages with their name and their zip-code `by the given parameter.`
+
+#### Sample Request 9
+
+```http
+http://localhost:8080/villages/edirne/merkez
+```
+
+#### Sample Response 9
+
+```json
+{
+    "countyName": "Merkez",
+    "countyTowns": [
+        {
+            "townName": "Edirne",
+            "townVillages": [
+                { "villageName": "1.murat mah", "zipCode": 22100 },
+                { "villageName": "Abdurrahman mah", "zipCode": 22100 },
+                { "villageName": "Babademirtaş mah", "zipCode": 22100 },
+                { "villageName": "Barutluk mah", "zipCode": 22100 },
+                { "villageName": "Dilaverbey mah", "zipCode": 22100 },
+                { "villageName": "Fatih mah", "zipCode": 22100 },
+                { "villageName": "Karaağaç mah", "zipCode": 22100 },
+                { "villageName": "Koca sinan mah", "zipCode": 22100 },
+                { "villageName": "Medrese ali bey mah", "zipCode": 22100 },
+                { "villageName": "Menzilahır mah", "zipCode": 22100 },
+                { "villageName": "Meydan mah", "zipCode": 22100 },
+                { "villageName": "Mithat paşa mah", "zipCode": 22100 },
+                { "villageName": "Nişancıpaşa mah", "zipCode": 22100 },
+                { "villageName": "Sabuni mah", "zipCode": 22100 },
+                { "villageName": "Sarıcapaşa mah", "zipCode": 22100 },
+                { "villageName": "Talatpaşa mah", "zipCode": 22100 },
+                { "villageName": "Umurbey mah", "zipCode": 22100 },
+                { "villageName": "Yancıkçı şahin mah", "zipCode": 22100 },
+                { "villageName": "Yeniimaret mah", "zipCode": 22100 },
+                { "villageName": "Yıldırım beyazıt mah", "zipCode": 22100 },
+                { "villageName": "Yıldırım hacı sarraf mah", "zipCode": 22100 },
+                { "villageName": "Çavuşbey mah", "zipCode": 22100 },
+                { "villageName": "İstasyon mah", "zipCode": 22100 },
+                { "villageName": "Şükrüpaşa mah", "zipCode": 22100 }
+            ]
+        },
+        {
+            "townName": "Merkezköyler",
+            "townVillages": [
+                { "villageName": "Ahı köyü", "zipCode": 22130 },
+                { "villageName": "Avarız köyü", "zipCode": 22130 },
+                { "villageName": "Bosna köyü", "zipCode": 22130 },
+                { "villageName": "Budakdoğanca köyü", "zipCode": 22130 },
+                { "villageName": "Büyükdöllük köyü", "zipCode": 22130 },
+                { "villageName": "Büyükismailçe köyü", "zipCode": 22130 },
+                { "villageName": "Demirhanlı köyü", "zipCode": 22130 },
+                { "villageName": "Değirmenyeni köyü", "zipCode": 22130 },
+                { "villageName": "Doyran köyü", "zipCode": 22130 },
+                { "villageName": "Ekmekçi köyü", "zipCode": 22130 },
+                { "villageName": "Elçili köyü", "zipCode": 22130 },
+                { "villageName": "Eskikadın köyü", "zipCode": 22130 },
+                { "villageName": "Hacıumur köyü", "zipCode": 22130 },
+                { "villageName": "Hasanağa köyü", "zipCode": 22130 },
+                { "villageName": "Hatip köyü", "zipCode": 22130 },
+                { "villageName": "Hıdırağa köyü", "zipCode": 22130 },
+                { "villageName": "Karabulut köyü", "zipCode": 22130 },
+                { "villageName": "Karakasım köyü", "zipCode": 22130 },
+                { "villageName": "Karayusuf köyü", "zipCode": 22130 },
+                { "villageName": "Kayapa köyü", "zipCode": 22130 },
+                { "villageName": "Kemal köyü", "zipCode": 22130 },
+                { "villageName": "Korucu köyü", "zipCode": 22130 },
+                { "villageName": "Köşençiftliği köyü", "zipCode": 22130 },
+                { "villageName": "Küçükdöllük köyü", "zipCode": 22130 },
+                { "villageName": "Menekşesofular köyü", "zipCode": 22130 },
+                { "villageName": "Muratçalı köyü", "zipCode": 22130 },
+                { "villageName": "Musabeyli köyü", "zipCode": 22130 },
+                { "villageName": "Orhaniye köyü", "zipCode": 22130 },
+                { "villageName": "Sarayakpınar köyü", "zipCode": 22130 },
+                { "villageName": "Sazlıdere köyü", "zipCode": 22130 },
+                { "villageName": "Suakacağı köyü", "zipCode": 22130 },
+                { "villageName": "Tayakadın köyü", "zipCode": 22130 },
+                { "villageName": "Uzgaç köyü", "zipCode": 22130 },
+                { "villageName": "Yenikadın köyü", "zipCode": 22130 },
+                { "villageName": "Yolüstü köyü", "zipCode": 22130 },
+                { "villageName": "Üyüklütatar köyü", "zipCode": 22130 },
+                { "villageName": "İskender köyü", "zipCode": 22130 }
+            ]
+        }
+    ]
+}
+```
 
 
 ### /villages/{provinceName}/{countyName}/{townName}
+
+| Param | Type | Description |
+| -- | -- | -- |
+| provinceName | string | The name of the province that you would like to get information about its counties, towns and villages. |
+| countyName | string | The name of the county that you would like to get information about its towns and villages. |
+| townName | string | The name of the town that you would like to get information about its villages |
+
+> This endpoint returns all villages with their name and their zip-code `by the given parameter.`
+
+#### Sample Request 10
+
+```http
+http://localhost:8080/villages/edirne/merkez
+```
+
+#### Sample Request 10
+
+```json
+{
+    "townName": "Edirne",
+    "townVillages": [
+        { "villageName": "1.murat mah", "zipCode": 22100 },
+        { "villageName": "Abdurrahman mah", "zipCode": 22100 },
+        { "villageName": "Babademirtaş mah", "zipCode": 22100 },
+        { "villageName": "Barutluk mah", "zipCode": 22100 },
+        { "villageName": "Dilaverbey mah", "zipCode": 22100 },
+        { "villageName": "Fatih mah", "zipCode": 22100 },
+        { "villageName": "Karaağaç mah", "zipCode": 22100 },
+        { "villageName": "Koca sinan mah", "zipCode": 22100 },
+        { "villageName": "Medrese ali bey mah", "zipCode": 22100 },
+        { "villageName": "Menzilahır mah", "zipCode": 22100 },
+        { "villageName": "Meydan mah", "zipCode": 22100 },
+        { "villageName": "Mithat paşa mah", "zipCode": 22100 },
+        { "villageName": "Nişancıpaşa mah", "zipCode": 22100 },
+        { "villageName": "Sabuni mah", "zipCode": 22100 },
+        { "villageName": "Sarıcapaşa mah", "zipCode": 22100 },
+        { "villageName": "Talatpaşa mah", "zipCode": 22100 },
+        { "villageName": "Umurbey mah", "zipCode": 22100 },
+        { "villageName": "Yancıkçı şahin mah", "zipCode": 22100 },
+        { "villageName": "Yeniimaret mah", "zipCode": 22100 },
+        { "villageName": "Yıldırım beyazıt mah", "zipCode": 22100 },
+        { "villageName": "Yıldırım hacı sarraf mah", "zipCode": 22100 },
+        { "villageName": "Çavuşbey mah", "zipCode": 22100 },
+        { "villageName": "İstasyon mah", "zipCode": 22100 },
+        { "villageName": "Şükrüpaşa mah", "zipCode": 22100 }
+    ]
+}
+```
+
 
 
 List of libraries used in tzone which written by me personally.
