@@ -43,14 +43,14 @@ func GetCities(w http.ResponseWriter, r *http.Request) {
 
 func GetCity(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	//name := r.URL.Query().Get("name")
-	name := mux.Vars(r)["provinceName"]
+	//provinceName := r.URL.Query().Get("provinceName")
+	provinceName := mux.Vars(r)["provinceName"]
 
-	log.Println(name)
-	log.Println(text.CapitalizeWithTurkish(name))
+	log.Println(provinceName)
+	log.Println(text.CapitalizeWithTurkish(provinceName))
 
 	for _, item := range provinces {
-		if strings.Contains(item.ProvinceName, text.CapitalizeWithTurkish(name)) {
+		if strings.Contains(item.ProvinceName, text.CapitalizeWithTurkish(provinceName)) {
 			json.NewEncoder(w).Encode(item)
 			return
 		}
