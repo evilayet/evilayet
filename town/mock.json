@@ -1,0 +1,122 @@
+[
+  {
+    "countyName": "Enez",
+    "countyTowns": [
+      {
+        "townName": "Enez"
+      },
+      {
+        "townName": "Merkezköyler"
+      }
+    ]
+  },
+  {
+    "countyName": "Havsa",
+    "countyTowns": [
+      {
+        "townName": "Hasköy"
+      },
+      {
+        "townName": "Havsa"
+      },
+      {
+        "townName": "Merkezköyler"
+      }
+    ]
+  },
+  {
+    "countyName": "Keşan",
+    "countyTowns": [
+      {
+        "townName": "Keşan"
+      },
+      {
+        "townName": "Mecidiye"
+      },
+      {
+        "townName": "Merkezköyler"
+      },
+      {
+        "townName": "Yerlisu"
+      }
+    ]
+  },
+  {
+    "countyName": "Lalapaşa",
+    "countyTowns": [
+      {
+        "townName": "Lalapaşa"
+      },
+      {
+        "townName": "Merkezköyler"
+      }
+    ]
+  },
+  {
+    "countyName": "Meriç",
+    "countyTowns": [
+      {
+        "townName": "Küplü"
+      },
+      {
+        "townName": "Meriç"
+      },
+      {
+        "townName": "Merkezköyler"
+      }
+    ]
+  },
+  {
+    "countyName": "Merkez",
+    "countyTowns": [
+      {
+        "townName": "Edirne"
+      },
+      {
+        "townName": "Merkezköyler"
+      }
+    ]
+  },
+  {
+    "countyName": "Süloğlu",
+    "countyTowns": [
+      {
+        "townName": "Süloğlu"
+      }
+    ]
+  },
+  {
+    "countyName": "Uzunköprü",
+    "countyTowns": [
+      {
+        "townName": "Aşçıoğlu"
+      },
+      {
+        "townName": "Hamidiye"
+      },
+      {
+        "townName": "Kırcasalih"
+      },
+      {
+        "townName": "Merkezköyler"
+      },
+      {
+        "townName": "Uzunköprü"
+      },
+      {
+        "townName": "Çöpköy"
+      }
+    ]
+  },
+  {
+    "countyName": "İpsala",
+    "countyTowns": [
+      {
+        "townName": "Merkezköyler"
+      },
+      {
+        "townName": "İpsala"
+      }
+    ]
+  }
+]
