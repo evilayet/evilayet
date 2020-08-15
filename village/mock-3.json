@@ -1,0 +1,101 @@
+{
+  "townName": "Edirne",
+  "townVillages": [
+    {
+      "villageName": "1.murat mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Abdurrahman mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Babademirtaş mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Barutluk mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Dilaverbey mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Fatih mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Karaağaç mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Koca sinan mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Medrese ali bey mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Menzilahır mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Meydan mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Mithat paşa mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Nişancıpaşa mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Sabuni mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Sarıcapaşa mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Talatpaşa mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Umurbey mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Yancıkçı şahin mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Yeniimaret mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Yıldırım beyazıt mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Yıldırım hacı sarraf mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Çavuşbey mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "İstasyon mah",
+      "zipCode": 22100
+    },
+    {
+      "villageName": "Şükrüpaşa mah",
+      "zipCode": 22100
+    }
+  ]
+}
