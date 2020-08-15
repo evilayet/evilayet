@@ -2,8 +2,57 @@
 
 `tzone` is a rest API that wrote in `golang` and it serves address information for Turkey
 
+[![CodeFactor](https://www.codefactor.io/repository/github/enesusta/tzone/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/enesusta/tzone)
+[![Go Report Card](https://goreportcard.com/badge/github.com/enesusta/tzone?style=for-the-badge)](https://goreportcard.com/report/github.com/enesusta/tzone)
+
 </div>
 <br/>
+
+- Index
+  - [Install](#-install) 
+  - [Endpoints](#endpoints)
+    - [/provinces](#provinces)
+    - [/provinces/{provinceName}](#provinces/{provinceName})
+    - [/counties](#counties)
+    - [/counties/{provinceName}](#countiesprovincename)
+    - [/towns](#towns)
+    - [/towns/{provinceName}](#townsprovincename)
+    - [/towns/{provinceName}/{countyName}](#townsprovincenamecountyname)
+    - [/villages](#villages)
+    - [/villages/{provinceName}](#villagesprovincename)
+    - [/villages/{provinceName}/{countyName}](#villagesprovincenamecountyname)
+    - [/villages/{provinceName}/{countyName}/{townName}](#villagesprovincenamecountynametownname)
+
+
+## 🕺 Install
+
+```
+go get -u github.com/enesusta/tzone
+```
+
+## Endpoints
+
+### /provinces
+
+### /provinces/{provinceName}
+
+### /counties
+
+### /counties/{provinceName}
+
+### /towns
+
+### /towns/{provinceName}
+
+### /towns/{provinceName}/{countyName}
+
+### /villages
+
+### /villages/{provinceName}
+
+### /villages/{provinceName}/{countyName}
+
+### /villages/{provinceName}/{countyName}/{townName}
 
 I have needed a rest API that serves the address location to my ERP(enterprise resource planning) application. After searching I didn't find a rest API that fits for me and my requirements.
 

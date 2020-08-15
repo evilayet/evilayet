@@ -13,8 +13,8 @@ import (
 func main() {
 	r := mux.NewRouter()
 
-	r.HandleFunc("/provinces", province.GetCities).Methods("GET")
-	r.HandleFunc("/provinces/{provinceName}", province.GetCity).Methods("GET")
+	r.HandleFunc("/provinces", province.GetProvinces).Methods("GET")
+	r.HandleFunc("/provinces/{provinceName}", province.GetProvince).Methods("GET")
 	r.HandleFunc("/counties", county.GetCounties).Methods("GET")
 	r.HandleFunc("/counties/{provinceName}", county.GetCounty).Methods("GET")
 	r.HandleFunc("/towns", town.GetTowns).Methods("GET")

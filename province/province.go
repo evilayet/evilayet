@@ -19,6 +19,7 @@ type Province struct {
 var provinces []Province
 
 func init() {
+	log.Println("bura")
 	f, err := os.Open("province.json")
 
 	if err != nil {
@@ -36,12 +37,12 @@ func init() {
 	err = json.Unmarshal(byteValue, &provinces)
 }
 
-func GetCities(w http.ResponseWriter, r *http.Request) {
+func GetProvinces(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(provinces)
 }
 
-func GetCity(w http.ResponseWriter, r *http.Request) {
+func GetProvince(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	//provinceName := r.URL.Query().Get("provinceName")
 	provinceName := mux.Vars(r)["provinceName"]
