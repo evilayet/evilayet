@@ -1,0 +1,3326 @@
+[
+  {
+    "provinceName": "Adana",
+    "provinceCounties": [
+      {
+        "countyName": "Aladağ"
+      },
+      {
+        "countyName": "Ceyhan"
+      },
+      {
+        "countyName": "Feke"
+      },
+      {
+        "countyName": "Karaisalı"
+      },
+      {
+        "countyName": "Karataş"
+      },
+      {
+        "countyName": "Kozan"
+      },
+      {
+        "countyName": "Pozantı"
+      },
+      {
+        "countyName": "Saimbeyli"
+      },
+      {
+        "countyName": "Sarıçam"
+      },
+      {
+        "countyName": "Seyhan"
+      },
+      {
+        "countyName": "Tufanbeyli"
+      },
+      {
+        "countyName": "Yumurtalık"
+      },
+      {
+        "countyName": "Yüreğir"
+      },
+      {
+        "countyName": "Çukurova"
+      },
+      {
+        "countyName": "İmamoğlu"
+      }
+    ]
+  },
+  {
+    "provinceName": "Adıyaman",
+    "provinceCounties": [
+      {
+        "countyName": "Besni"
+      },
+      {
+        "countyName": "Gerger"
+      },
+      {
+        "countyName": "Gölbaşı"
+      },
+      {
+        "countyName": "Kahta"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Samsat"
+      },
+      {
+        "countyName": "Sincik"
+      },
+      {
+        "countyName": "Tut"
+      },
+      {
+        "countyName": "Çelikhan"
+      }
+    ]
+  },
+  {
+    "provinceName": "Afyonkarahisar",
+    "provinceCounties": [
+      {
+        "countyName": "Bayat"
+      },
+      {
+        "countyName": "Başmakçı"
+      },
+      {
+        "countyName": "Bolvadin"
+      },
+      {
+        "countyName": "Dazkırı"
+      },
+      {
+        "countyName": "Dinar"
+      },
+      {
+        "countyName": "Emirdağ"
+      },
+      {
+        "countyName": "Evciler"
+      },
+      {
+        "countyName": "Hocalar"
+      },
+      {
+        "countyName": "Kızılören"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Sandıklı"
+      },
+      {
+        "countyName": "Sinanpaşa"
+      },
+      {
+        "countyName": "Sultandağı"
+      },
+      {
+        "countyName": "Çay"
+      },
+      {
+        "countyName": "Çobanlar"
+      },
+      {
+        "countyName": "İhsaniye"
+      },
+      {
+        "countyName": "İscehisar"
+      },
+      {
+        "countyName": "Şuhut"
+      }
+    ]
+  },
+  {
+    "provinceName": "Aksaray",
+    "provinceCounties": [
+      {
+        "countyName": "Ağaçören"
+      },
+      {
+        "countyName": "Eskil"
+      },
+      {
+        "countyName": "Gülağaç"
+      },
+      {
+        "countyName": "Güzelyurt"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Ortaköy"
+      },
+      {
+        "countyName": "Sarıyahşi"
+      },
+      {
+        "countyName": "Sultanhanı"
+      }
+    ]
+  },
+  {
+    "provinceName": "Amasya",
+    "provinceCounties": [
+      {
+        "countyName": "Göynücek"
+      },
+      {
+        "countyName": "Gümüşhacıköy"
+      },
+      {
+        "countyName": "Hamamözü"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Merzifon"
+      },
+      {
+        "countyName": "Suluova"
+      },
+      {
+        "countyName": "Taşova"
+      }
+    ]
+  },
+  {
+    "provinceName": "Ankara",
+    "provinceCounties": [
+      {
+        "countyName": "Akyurt"
+      },
+      {
+        "countyName": "Altındağ"
+      },
+      {
+        "countyName": "Ayaş"
+      },
+      {
+        "countyName": "Bala"
+      },
+      {
+        "countyName": "Beypazarı"
+      },
+      {
+        "countyName": "Elmadağ"
+      },
+      {
+        "countyName": "Etimesgut"
+      },
+      {
+        "countyName": "Evren"
+      },
+      {
+        "countyName": "Gölbaşı"
+      },
+      {
+        "countyName": "Güdül"
+      },
+      {
+        "countyName": "Haymana"
+      },
+      {
+        "countyName": "Kahramankazan"
+      },
+      {
+        "countyName": "Kalecik"
+      },
+      {
+        "countyName": "Keçiören"
+      },
+      {
+        "countyName": "Kızılcahamam"
+      },
+      {
+        "countyName": "Mamak"
+      },
+      {
+        "countyName": "Nallıhan"
+      },
+      {
+        "countyName": "Polatlı"
+      },
+      {
+        "countyName": "Pursaklar"
+      },
+      {
+        "countyName": "Sincan"
+      },
+      {
+        "countyName": "Yenimahalle"
+      },
+      {
+        "countyName": "Çamlıdere"
+      },
+      {
+        "countyName": "Çankaya"
+      },
+      {
+        "countyName": "Çubuk"
+      },
+      {
+        "countyName": "Şereflikoçhisar"
+      }
+    ]
+  },
+  {
+    "provinceName": "Antalya",
+    "provinceCounties": [
+      {
+        "countyName": "Akseki"
+      },
+      {
+        "countyName": "Aksu"
+      },
+      {
+        "countyName": "Alanya"
+      },
+      {
+        "countyName": "Demre"
+      },
+      {
+        "countyName": "Döşemealtı"
+      },
+      {
+        "countyName": "Elmalı"
+      },
+      {
+        "countyName": "Finike"
+      },
+      {
+        "countyName": "Gazipaşa"
+      },
+      {
+        "countyName": "Gündoğmuş"
+      },
+      {
+        "countyName": "Kaş"
+      },
+      {
+        "countyName": "Kemer"
+      },
+      {
+        "countyName": "Kepez"
+      },
+      {
+        "countyName": "Konyaaltı"
+      },
+      {
+        "countyName": "Korkuteli"
+      },
+      {
+        "countyName": "Kumluca"
+      },
+      {
+        "countyName": "Manavgat"
+      },
+      {
+        "countyName": "Muratpaşa"
+      },
+      {
+        "countyName": "Serik"
+      },
+      {
+        "countyName": "İbradı"
+      }
+    ]
+  },
+  {
+    "provinceName": "Ardahan",
+    "provinceCounties": [
+      {
+        "countyName": "Damal"
+      },
+      {
+        "countyName": "Göle"
+      },
+      {
+        "countyName": "Hanak"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Posof"
+      },
+      {
+        "countyName": "Çıldır"
+      }
+    ]
+  },
+  {
+    "provinceName": "Artvin",
+    "provinceCounties": [
+      {
+        "countyName": "Ardanuç"
+      },
+      {
+        "countyName": "Arhavi"
+      },
+      {
+        "countyName": "Borçka"
+      },
+      {
+        "countyName": "Hopa"
+      },
+      {
+        "countyName": "Kemalpaşa"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Murgul"
+      },
+      {
+        "countyName": "Yusufeli"
+      },
+      {
+        "countyName": "Şavşat"
+      }
+    ]
+  },
+  {
+    "provinceName": "Aydın",
+    "provinceCounties": [
+      {
+        "countyName": "Bozdoğan"
+      },
+      {
+        "countyName": "Buharkent"
+      },
+      {
+        "countyName": "Didim"
+      },
+      {
+        "countyName": "Efeler"
+      },
+      {
+        "countyName": "Germencik"
+      },
+      {
+        "countyName": "Karacasu"
+      },
+      {
+        "countyName": "Karpuzlu"
+      },
+      {
+        "countyName": "Koçarlı"
+      },
+      {
+        "countyName": "Kuyucak"
+      },
+      {
+        "countyName": "Kuşadası"
+      },
+      {
+        "countyName": "Köşk"
+      },
+      {
+        "countyName": "Nazilli"
+      },
+      {
+        "countyName": "Sultanhisar"
+      },
+      {
+        "countyName": "Söke"
+      },
+      {
+        "countyName": "Yenipazar"
+      },
+      {
+        "countyName": "Çine"
+      },
+      {
+        "countyName": "İncirliova"
+      }
+    ]
+  },
+  {
+    "provinceName": "Ağrı",
+    "provinceCounties": [
+      {
+        "countyName": "Diyadin"
+      },
+      {
+        "countyName": "Doğubayazıt"
+      },
+      {
+        "countyName": "Eleşkirt"
+      },
+      {
+        "countyName": "Hamur"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Patnos"
+      },
+      {
+        "countyName": "Taşlıçay"
+      },
+      {
+        "countyName": "Tutak"
+      }
+    ]
+  },
+  {
+    "provinceName": "Balıkesir",
+    "provinceCounties": [
+      {
+        "countyName": "Altıeylül"
+      },
+      {
+        "countyName": "Ayvalık"
+      },
+      {
+        "countyName": "Balya"
+      },
+      {
+        "countyName": "Bandırma"
+      },
+      {
+        "countyName": "Bigadiç"
+      },
+      {
+        "countyName": "Burhaniye"
+      },
+      {
+        "countyName": "Dursunbey"
+      },
+      {
+        "countyName": "Edremit"
+      },
+      {
+        "countyName": "Erdek"
+      },
+      {
+        "countyName": "Gömeç"
+      },
+      {
+        "countyName": "Gönen"
+      },
+      {
+        "countyName": "Havran"
+      },
+      {
+        "countyName": "Karesi"
+      },
+      {
+        "countyName": "Kepsut"
+      },
+      {
+        "countyName": "Manyas"
+      },
+      {
+        "countyName": "Marmara"
+      },
+      {
+        "countyName": "Savaştepe"
+      },
+      {
+        "countyName": "Susurluk"
+      },
+      {
+        "countyName": "Sındırgı"
+      },
+      {
+        "countyName": "İvrindi"
+      }
+    ]
+  },
+  {
+    "provinceName": "Bartın",
+    "provinceCounties": [
+      {
+        "countyName": "Amasra"
+      },
+      {
+        "countyName": "Kurucaşile"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Ulus"
+      }
+    ]
+  },
+  {
+    "provinceName": "Batman",
+    "provinceCounties": [
+      {
+        "countyName": "Beşiri"
+      },
+      {
+        "countyName": "Gercüş"
+      },
+      {
+        "countyName": "Hasankeyf"
+      },
+      {
+        "countyName": "Kozluk"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Sason"
+      }
+    ]
+  },
+  {
+    "provinceName": "Bayburt",
+    "provinceCounties": [
+      {
+        "countyName": "Aydıntepe"
+      },
+      {
+        "countyName": "Demirözü"
+      },
+      {
+        "countyName": "Merkez"
+      }
+    ]
+  },
+  {
+    "provinceName": "Bilecik",
+    "provinceCounties": [
+      {
+        "countyName": "Bozüyük"
+      },
+      {
+        "countyName": "Gölpazarı"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Osmaneli"
+      },
+      {
+        "countyName": "Pazaryeri"
+      },
+      {
+        "countyName": "Söğüt"
+      },
+      {
+        "countyName": "Yenipazar"
+      },
+      {
+        "countyName": "İnhisar"
+      }
+    ]
+  },
+  {
+    "provinceName": "Bingöl",
+    "provinceCounties": [
+      {
+        "countyName": "Adaklı"
+      },
+      {
+        "countyName": "Genç"
+      },
+      {
+        "countyName": "Karlıova"
+      },
+      {
+        "countyName": "Kiğı"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Solhan"
+      },
+      {
+        "countyName": "Yayladere"
+      },
+      {
+        "countyName": "Yedisu"
+      }
+    ]
+  },
+  {
+    "provinceName": "Bitlis",
+    "provinceCounties": [
+      {
+        "countyName": "Adilcevaz"
+      },
+      {
+        "countyName": "Ahlat"
+      },
+      {
+        "countyName": "Güroymak"
+      },
+      {
+        "countyName": "Hizan"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Mutki"
+      },
+      {
+        "countyName": "Tatvan"
+      }
+    ]
+  },
+  {
+    "provinceName": "Bolu",
+    "provinceCounties": [
+      {
+        "countyName": "Dörtdivan"
+      },
+      {
+        "countyName": "Gerede"
+      },
+      {
+        "countyName": "Göynük"
+      },
+      {
+        "countyName": "Kıbrıscık"
+      },
+      {
+        "countyName": "Mengen"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Mudurnu"
+      },
+      {
+        "countyName": "Seben"
+      },
+      {
+        "countyName": "Yeniçağa"
+      }
+    ]
+  },
+  {
+    "provinceName": "Burdur",
+    "provinceCounties": [
+      {
+        "countyName": "Altınyayla"
+      },
+      {
+        "countyName": "Ağlasun"
+      },
+      {
+        "countyName": "Bucak"
+      },
+      {
+        "countyName": "Gölhisar"
+      },
+      {
+        "countyName": "Karamanlı"
+      },
+      {
+        "countyName": "Kemer"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Tefenni"
+      },
+      {
+        "countyName": "Yeşilova"
+      },
+      {
+        "countyName": "Çavdır"
+      },
+      {
+        "countyName": "Çeltikçi"
+      }
+    ]
+  },
+  {
+    "provinceName": "Bursa",
+    "provinceCounties": [
+      {
+        "countyName": "Büyükorhan"
+      },
+      {
+        "countyName": "Gemlik"
+      },
+      {
+        "countyName": "Gürsu"
+      },
+      {
+        "countyName": "Harmancık"
+      },
+      {
+        "countyName": "Karacabey"
+      },
+      {
+        "countyName": "Keles"
+      },
+      {
+        "countyName": "Kestel"
+      },
+      {
+        "countyName": "Mudanya"
+      },
+      {
+        "countyName": "Mustafakemalpaşa"
+      },
+      {
+        "countyName": "Nilüfer"
+      },
+      {
+        "countyName": "Orhaneli"
+      },
+      {
+        "countyName": "Orhangazi"
+      },
+      {
+        "countyName": "Osmangazi"
+      },
+      {
+        "countyName": "Yenişehir"
+      },
+      {
+        "countyName": "Yıldırım"
+      },
+      {
+        "countyName": "İnegöl"
+      },
+      {
+        "countyName": "İznik"
+      }
+    ]
+  },
+  {
+    "provinceName": "Denizli",
+    "provinceCounties": [
+      {
+        "countyName": "Acıpayam"
+      },
+      {
+        "countyName": "Babadağ"
+      },
+      {
+        "countyName": "Baklan"
+      },
+      {
+        "countyName": "Bekilli"
+      },
+      {
+        "countyName": "Beyağaç"
+      },
+      {
+        "countyName": "Bozkurt"
+      },
+      {
+        "countyName": "Buldan"
+      },
+      {
+        "countyName": "Güney"
+      },
+      {
+        "countyName": "Honaz"
+      },
+      {
+        "countyName": "Kale"
+      },
+      {
+        "countyName": "Merkezefendi"
+      },
+      {
+        "countyName": "Pamukkale"
+      },
+      {
+        "countyName": "Sarayköy"
+      },
+      {
+        "countyName": "Serinhisar"
+      },
+      {
+        "countyName": "Tavas"
+      },
+      {
+        "countyName": "Çal"
+      },
+      {
+        "countyName": "Çameli"
+      },
+      {
+        "countyName": "Çardak"
+      },
+      {
+        "countyName": "Çivril"
+      }
+    ]
+  },
+  {
+    "provinceName": "Diyarbakır",
+    "provinceCounties": [
+      {
+        "countyName": "Bağlar"
+      },
+      {
+        "countyName": "Bismil"
+      },
+      {
+        "countyName": "Dicle"
+      },
+      {
+        "countyName": "Ergani"
+      },
+      {
+        "countyName": "Eğil"
+      },
+      {
+        "countyName": "Hani"
+      },
+      {
+        "countyName": "Hazro"
+      },
+      {
+        "countyName": "Kayapınar"
+      },
+      {
+        "countyName": "Kocaköy"
+      },
+      {
+        "countyName": "Kulp"
+      },
+      {
+        "countyName": "Lice"
+      },
+      {
+        "countyName": "Silvan"
+      },
+      {
+        "countyName": "Sur"
+      },
+      {
+        "countyName": "Yenişehir"
+      },
+      {
+        "countyName": "Çermik"
+      },
+      {
+        "countyName": "Çüngüş"
+      },
+      {
+        "countyName": "Çınar"
+      }
+    ]
+  },
+  {
+    "provinceName": "Düzce",
+    "provinceCounties": [
+      {
+        "countyName": "Akçakoca"
+      },
+      {
+        "countyName": "Cumayeri"
+      },
+      {
+        "countyName": "Gölyaka"
+      },
+      {
+        "countyName": "Gümüşova"
+      },
+      {
+        "countyName": "Kaynaşlı"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Yığılca"
+      },
+      {
+        "countyName": "Çilimli"
+      }
+    ]
+  },
+  {
+    "provinceName": "Edirne",
+    "provinceCounties": [
+      {
+        "countyName": "Enez"
+      },
+      {
+        "countyName": "Havsa"
+      },
+      {
+        "countyName": "Keşan"
+      },
+      {
+        "countyName": "Lalapaşa"
+      },
+      {
+        "countyName": "Meriç"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Süloğlu"
+      },
+      {
+        "countyName": "Uzunköprü"
+      },
+      {
+        "countyName": "İpsala"
+      }
+    ]
+  },
+  {
+    "provinceName": "Elazığ",
+    "provinceCounties": [
+      {
+        "countyName": "Alacakaya"
+      },
+      {
+        "countyName": "Arıcak"
+      },
+      {
+        "countyName": "Ağın"
+      },
+      {
+        "countyName": "Baskil"
+      },
+      {
+        "countyName": "Karakoçan"
+      },
+      {
+        "countyName": "Keban"
+      },
+      {
+        "countyName": "Kovancılar"
+      },
+      {
+        "countyName": "Maden"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Palu"
+      },
+      {
+        "countyName": "Sivrice"
+      }
+    ]
+  },
+  {
+    "provinceName": "Erzincan",
+    "provinceCounties": [
+      {
+        "countyName": "Kemah"
+      },
+      {
+        "countyName": "Kemaliye"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Otlukbeli"
+      },
+      {
+        "countyName": "Refahiye"
+      },
+      {
+        "countyName": "Tercan"
+      },
+      {
+        "countyName": "Çayırlı"
+      },
+      {
+        "countyName": "Üzümlü"
+      },
+      {
+        "countyName": "İliç"
+      }
+    ]
+  },
+  {
+    "provinceName": "Erzurum",
+    "provinceCounties": [
+      {
+        "countyName": "Aziziye"
+      },
+      {
+        "countyName": "Aşkale"
+      },
+      {
+        "countyName": "Horasan"
+      },
+      {
+        "countyName": "Hınıs"
+      },
+      {
+        "countyName": "Karayazı"
+      },
+      {
+        "countyName": "Karaçoban"
+      },
+      {
+        "countyName": "Köprüköy"
+      },
+      {
+        "countyName": "Narman"
+      },
+      {
+        "countyName": "Oltu"
+      },
+      {
+        "countyName": "Olur"
+      },
+      {
+        "countyName": "Palandöken"
+      },
+      {
+        "countyName": "Pasinler"
+      },
+      {
+        "countyName": "Pazaryolu"
+      },
+      {
+        "countyName": "Tekman"
+      },
+      {
+        "countyName": "Tortum"
+      },
+      {
+        "countyName": "Uzundere"
+      },
+      {
+        "countyName": "Yakutiye"
+      },
+      {
+        "countyName": "Çat"
+      },
+      {
+        "countyName": "İspir"
+      },
+      {
+        "countyName": "Şenkaya"
+      }
+    ]
+  },
+  {
+    "provinceName": "Eskişehir",
+    "provinceCounties": [
+      {
+        "countyName": "Alpu"
+      },
+      {
+        "countyName": "Beylikova"
+      },
+      {
+        "countyName": "Günyüzü"
+      },
+      {
+        "countyName": "Han"
+      },
+      {
+        "countyName": "Mahmudiye"
+      },
+      {
+        "countyName": "Mihalgazi"
+      },
+      {
+        "countyName": "Mihalıççık"
+      },
+      {
+        "countyName": "Odunpazarı"
+      },
+      {
+        "countyName": "Sarıcakaya"
+      },
+      {
+        "countyName": "Seyitgazi"
+      },
+      {
+        "countyName": "Sivrihisar"
+      },
+      {
+        "countyName": "Tepebaşı"
+      },
+      {
+        "countyName": "Çifteler"
+      },
+      {
+        "countyName": "İnönü"
+      }
+    ]
+  },
+  {
+    "provinceName": "Gaziantep",
+    "provinceCounties": [
+      {
+        "countyName": "Araban"
+      },
+      {
+        "countyName": "Karkamış"
+      },
+      {
+        "countyName": "Nizip"
+      },
+      {
+        "countyName": "Nurdağı"
+      },
+      {
+        "countyName": "Oğuzeli"
+      },
+      {
+        "countyName": "Yavuzeli"
+      },
+      {
+        "countyName": "İslahiye"
+      },
+      {
+        "countyName": "Şahinbey"
+      },
+      {
+        "countyName": "Şehitkamil"
+      }
+    ]
+  },
+  {
+    "provinceName": "Giresun",
+    "provinceCounties": [
+      {
+        "countyName": "Alucra"
+      },
+      {
+        "countyName": "Bulancak"
+      },
+      {
+        "countyName": "Dereli"
+      },
+      {
+        "countyName": "Doğankent"
+      },
+      {
+        "countyName": "Espiye"
+      },
+      {
+        "countyName": "Eynesil"
+      },
+      {
+        "countyName": "Görele"
+      },
+      {
+        "countyName": "Güce"
+      },
+      {
+        "countyName": "Keşap"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Piraziz"
+      },
+      {
+        "countyName": "Tirebolu"
+      },
+      {
+        "countyName": "Yağlıdere"
+      },
+      {
+        "countyName": "Çamoluk"
+      },
+      {
+        "countyName": "Çanakçı"
+      },
+      {
+        "countyName": "Şebinkarahisar"
+      }
+    ]
+  },
+  {
+    "provinceName": "Gümüşhane",
+    "provinceCounties": [
+      {
+        "countyName": "Kelkit"
+      },
+      {
+        "countyName": "Köse"
+      },
+      {
+        "countyName": "Kürtün"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Torul"
+      },
+      {
+        "countyName": "Şiran"
+      }
+    ]
+  },
+  {
+    "provinceName": "Hakkari",
+    "provinceCounties": [
+      {
+        "countyName": "Derecik"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Yüksekova"
+      },
+      {
+        "countyName": "Çukurca"
+      },
+      {
+        "countyName": "Şemdinli"
+      }
+    ]
+  },
+  {
+    "provinceName": "Hatay",
+    "provinceCounties": [
+      {
+        "countyName": "Altınözü"
+      },
+      {
+        "countyName": "Antakya"
+      },
+      {
+        "countyName": "Arsuz"
+      },
+      {
+        "countyName": "Belen"
+      },
+      {
+        "countyName": "Defne"
+      },
+      {
+        "countyName": "Dörtyol"
+      },
+      {
+        "countyName": "Erzin"
+      },
+      {
+        "countyName": "Hassa"
+      },
+      {
+        "countyName": "Kumlu"
+      },
+      {
+        "countyName": "Kırıkhan"
+      },
+      {
+        "countyName": "Payas"
+      },
+      {
+        "countyName": "Reyhanlı"
+      },
+      {
+        "countyName": "Samandağ"
+      },
+      {
+        "countyName": "Yayladağı"
+      },
+      {
+        "countyName": "İskenderun"
+      }
+    ]
+  },
+  {
+    "provinceName": "Isparta",
+    "provinceCounties": [
+      {
+        "countyName": "Aksu"
+      },
+      {
+        "countyName": "Atabey"
+      },
+      {
+        "countyName": "Eğirdir"
+      },
+      {
+        "countyName": "Gelendost"
+      },
+      {
+        "countyName": "Gönen"
+      },
+      {
+        "countyName": "Keçiborlu"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Senirkent"
+      },
+      {
+        "countyName": "Sütçüler"
+      },
+      {
+        "countyName": "Uluborlu"
+      },
+      {
+        "countyName": "Yalvaç"
+      },
+      {
+        "countyName": "Yenişarbademli"
+      },
+      {
+        "countyName": "Şarkikaraağaç"
+      }
+    ]
+  },
+  {
+    "provinceName": "Iğdır",
+    "provinceCounties": [
+      {
+        "countyName": "Aralık"
+      },
+      {
+        "countyName": "Karakoyunlu"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Tuzluca"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kahramanmaraş",
+    "provinceCounties": [
+      {
+        "countyName": "Afşin"
+      },
+      {
+        "countyName": "Andırın"
+      },
+      {
+        "countyName": "Dulkadiroğlu"
+      },
+      {
+        "countyName": "Ekinözü"
+      },
+      {
+        "countyName": "Elbistan"
+      },
+      {
+        "countyName": "Göksun"
+      },
+      {
+        "countyName": "Nurhak"
+      },
+      {
+        "countyName": "Onikişubat"
+      },
+      {
+        "countyName": "Pazarcık"
+      },
+      {
+        "countyName": "Türkoğlu"
+      },
+      {
+        "countyName": "Çağlayancerit"
+      }
+    ]
+  },
+  {
+    "provinceName": "Karabük",
+    "provinceCounties": [
+      {
+        "countyName": "Eflani"
+      },
+      {
+        "countyName": "Eskipazar"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Ovacık"
+      },
+      {
+        "countyName": "Safranbolu"
+      },
+      {
+        "countyName": "Yenice"
+      }
+    ]
+  },
+  {
+    "provinceName": "Karaman",
+    "provinceCounties": [
+      {
+        "countyName": "Ayrancı"
+      },
+      {
+        "countyName": "Başyayla"
+      },
+      {
+        "countyName": "Ermenek"
+      },
+      {
+        "countyName": "Kazımkarabekir"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Sarıveliler"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kars",
+    "provinceCounties": [
+      {
+        "countyName": "Akyaka"
+      },
+      {
+        "countyName": "Arpaçay"
+      },
+      {
+        "countyName": "Digor"
+      },
+      {
+        "countyName": "Kağızman"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Sarıkamış"
+      },
+      {
+        "countyName": "Selim"
+      },
+      {
+        "countyName": "Susuz"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kastamonu",
+    "provinceCounties": [
+      {
+        "countyName": "Abana"
+      },
+      {
+        "countyName": "Araç"
+      },
+      {
+        "countyName": "Azdavay"
+      },
+      {
+        "countyName": "Ağlı"
+      },
+      {
+        "countyName": "Bozkurt"
+      },
+      {
+        "countyName": "Cide"
+      },
+      {
+        "countyName": "Daday"
+      },
+      {
+        "countyName": "Devrekani"
+      },
+      {
+        "countyName": "Doğanyurt"
+      },
+      {
+        "countyName": "Hanönü"
+      },
+      {
+        "countyName": "Küre"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Pınarbaşı"
+      },
+      {
+        "countyName": "Seydiler"
+      },
+      {
+        "countyName": "Taşköprü"
+      },
+      {
+        "countyName": "Tosya"
+      },
+      {
+        "countyName": "Çatalzeytin"
+      },
+      {
+        "countyName": "İhsangazi"
+      },
+      {
+        "countyName": "İnebolu"
+      },
+      {
+        "countyName": "Şenpazar"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kayseri",
+    "provinceCounties": [
+      {
+        "countyName": "Akkışla"
+      },
+      {
+        "countyName": "Bünyan"
+      },
+      {
+        "countyName": "Develi"
+      },
+      {
+        "countyName": "Felahiye"
+      },
+      {
+        "countyName": "Hacılar"
+      },
+      {
+        "countyName": "Kocasinan"
+      },
+      {
+        "countyName": "Melikgazi"
+      },
+      {
+        "countyName": "Pınarbaşı"
+      },
+      {
+        "countyName": "Sarıoğlan"
+      },
+      {
+        "countyName": "Sarız"
+      },
+      {
+        "countyName": "Talas"
+      },
+      {
+        "countyName": "Tomarza"
+      },
+      {
+        "countyName": "Yahyalı"
+      },
+      {
+        "countyName": "Yeşilhisar"
+      },
+      {
+        "countyName": "Özvatan"
+      },
+      {
+        "countyName": "İncesu"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kilis",
+    "provinceCounties": [
+      {
+        "countyName": "Elbeyli"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Musabeyli"
+      },
+      {
+        "countyName": "Polateli"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kocaeli",
+    "provinceCounties": [
+      {
+        "countyName": "Başiskele"
+      },
+      {
+        "countyName": "Darıca"
+      },
+      {
+        "countyName": "Derince"
+      },
+      {
+        "countyName": "Dilovası"
+      },
+      {
+        "countyName": "Gebze"
+      },
+      {
+        "countyName": "Gölcük"
+      },
+      {
+        "countyName": "Kandıra"
+      },
+      {
+        "countyName": "Karamürsel"
+      },
+      {
+        "countyName": "Kartepe"
+      },
+      {
+        "countyName": "Körfez"
+      },
+      {
+        "countyName": "Çayırova"
+      },
+      {
+        "countyName": "İzmit"
+      }
+    ]
+  },
+  {
+    "provinceName": "Konya",
+    "provinceCounties": [
+      {
+        "countyName": "Ahırlı"
+      },
+      {
+        "countyName": "Akören"
+      },
+      {
+        "countyName": "Akşehir"
+      },
+      {
+        "countyName": "Altınekin"
+      },
+      {
+        "countyName": "Beyşehir"
+      },
+      {
+        "countyName": "Bozkır"
+      },
+      {
+        "countyName": "Cihanbeyli"
+      },
+      {
+        "countyName": "Derbent"
+      },
+      {
+        "countyName": "Derebucak"
+      },
+      {
+        "countyName": "Doğanhisar"
+      },
+      {
+        "countyName": "Emirgazi"
+      },
+      {
+        "countyName": "Ereğli"
+      },
+      {
+        "countyName": "Güneysınır"
+      },
+      {
+        "countyName": "Hadim"
+      },
+      {
+        "countyName": "Halkapınar"
+      },
+      {
+        "countyName": "Hüyük"
+      },
+      {
+        "countyName": "Ilgın"
+      },
+      {
+        "countyName": "Kadınhanı"
+      },
+      {
+        "countyName": "Karapınar"
+      },
+      {
+        "countyName": "Karatay"
+      },
+      {
+        "countyName": "Kulu"
+      },
+      {
+        "countyName": "Meram"
+      },
+      {
+        "countyName": "Sarayönü"
+      },
+      {
+        "countyName": "Selçuklu"
+      },
+      {
+        "countyName": "Seydişehir"
+      },
+      {
+        "countyName": "Taşkent"
+      },
+      {
+        "countyName": "Tuzlukçu"
+      },
+      {
+        "countyName": "Yalıhüyük"
+      },
+      {
+        "countyName": "Yunak"
+      },
+      {
+        "countyName": "Çeltik"
+      },
+      {
+        "countyName": "Çumra"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kütahya",
+    "provinceCounties": [
+      {
+        "countyName": "Altıntaş"
+      },
+      {
+        "countyName": "Aslanapa"
+      },
+      {
+        "countyName": "Domaniç"
+      },
+      {
+        "countyName": "Dumlupınar"
+      },
+      {
+        "countyName": "Emet"
+      },
+      {
+        "countyName": "Gediz"
+      },
+      {
+        "countyName": "Hisarcık"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Pazarlar"
+      },
+      {
+        "countyName": "Simav"
+      },
+      {
+        "countyName": "Tavşanlı"
+      },
+      {
+        "countyName": "Çavdarhisar"
+      },
+      {
+        "countyName": "Şaphane"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kırklareli",
+    "provinceCounties": [
+      {
+        "countyName": "Babaeski"
+      },
+      {
+        "countyName": "Demirköy"
+      },
+      {
+        "countyName": "Kofçaz"
+      },
+      {
+        "countyName": "Lüleburgaz"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Pehlivanköy"
+      },
+      {
+        "countyName": "Pınarhisar"
+      },
+      {
+        "countyName": "Vize"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kırıkkale",
+    "provinceCounties": [
+      {
+        "countyName": "Bahşılı"
+      },
+      {
+        "countyName": "Balışeyh"
+      },
+      {
+        "countyName": "Delice"
+      },
+      {
+        "countyName": "Karakeçili"
+      },
+      {
+        "countyName": "Keskin"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Sulakyurt"
+      },
+      {
+        "countyName": "Yahşihan"
+      },
+      {
+        "countyName": "Çelebi"
+      }
+    ]
+  },
+  {
+    "provinceName": "Kırşehir",
+    "provinceCounties": [
+      {
+        "countyName": "Akpınar"
+      },
+      {
+        "countyName": "Akçakent"
+      },
+      {
+        "countyName": "Boztepe"
+      },
+      {
+        "countyName": "Kaman"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Mucur"
+      },
+      {
+        "countyName": "Çiçekdağı"
+      }
+    ]
+  },
+  {
+    "provinceName": "Malatya",
+    "provinceCounties": [
+      {
+        "countyName": "Akçadağ"
+      },
+      {
+        "countyName": "Arapgir"
+      },
+      {
+        "countyName": "Arguvan"
+      },
+      {
+        "countyName": "Battalgazi"
+      },
+      {
+        "countyName": "Darende"
+      },
+      {
+        "countyName": "Doğanyol"
+      },
+      {
+        "countyName": "Doğanşehir"
+      },
+      {
+        "countyName": "Hekimhan"
+      },
+      {
+        "countyName": "Kale"
+      },
+      {
+        "countyName": "Kuluncak"
+      },
+      {
+        "countyName": "Pütürge"
+      },
+      {
+        "countyName": "Yazıhan"
+      },
+      {
+        "countyName": "Yeşilyurt"
+      }
+    ]
+  },
+  {
+    "provinceName": "Manisa",
+    "provinceCounties": [
+      {
+        "countyName": "Ahmetli"
+      },
+      {
+        "countyName": "Akhisar"
+      },
+      {
+        "countyName": "Alaşehir"
+      },
+      {
+        "countyName": "Demirci"
+      },
+      {
+        "countyName": "Gölmarmara"
+      },
+      {
+        "countyName": "Gördes"
+      },
+      {
+        "countyName": "Kula"
+      },
+      {
+        "countyName": "Köprübaşı"
+      },
+      {
+        "countyName": "Kırkağaç"
+      },
+      {
+        "countyName": "Salihli"
+      },
+      {
+        "countyName": "Saruhanlı"
+      },
+      {
+        "countyName": "Sarıgöl"
+      },
+      {
+        "countyName": "Selendi"
+      },
+      {
+        "countyName": "Soma"
+      },
+      {
+        "countyName": "Turgutlu"
+      },
+      {
+        "countyName": "Yunusemre"
+      },
+      {
+        "countyName": "Şehzadeler"
+      }
+    ]
+  },
+  {
+    "provinceName": "Mardin",
+    "provinceCounties": [
+      {
+        "countyName": "Artuklu"
+      },
+      {
+        "countyName": "Dargeçit"
+      },
+      {
+        "countyName": "Derik"
+      },
+      {
+        "countyName": "Kızıltepe"
+      },
+      {
+        "countyName": "Mazıdağı"
+      },
+      {
+        "countyName": "Midyat"
+      },
+      {
+        "countyName": "Nusaybin"
+      },
+      {
+        "countyName": "Savur"
+      },
+      {
+        "countyName": "Yeşilli"
+      },
+      {
+        "countyName": "Ömerli"
+      }
+    ]
+  },
+  {
+    "provinceName": "Mersin",
+    "provinceCounties": [
+      {
+        "countyName": "Akdeniz"
+      },
+      {
+        "countyName": "Anamur"
+      },
+      {
+        "countyName": "Aydıncık"
+      },
+      {
+        "countyName": "Bozyazı"
+      },
+      {
+        "countyName": "Erdemli"
+      },
+      {
+        "countyName": "Gülnar"
+      },
+      {
+        "countyName": "Mezitli"
+      },
+      {
+        "countyName": "Mut"
+      },
+      {
+        "countyName": "Silifke"
+      },
+      {
+        "countyName": "Tarsus"
+      },
+      {
+        "countyName": "Toroslar"
+      },
+      {
+        "countyName": "Yenişehir"
+      },
+      {
+        "countyName": "Çamlıyayla"
+      }
+    ]
+  },
+  {
+    "provinceName": "Muğla",
+    "provinceCounties": [
+      {
+        "countyName": "Bodrum"
+      },
+      {
+        "countyName": "Dalaman"
+      },
+      {
+        "countyName": "Datça"
+      },
+      {
+        "countyName": "Fethiye"
+      },
+      {
+        "countyName": "Kavaklıdere"
+      },
+      {
+        "countyName": "Köyceğiz"
+      },
+      {
+        "countyName": "Marmaris"
+      },
+      {
+        "countyName": "Menteşe"
+      },
+      {
+        "countyName": "Milas"
+      },
+      {
+        "countyName": "Ortaca"
+      },
+      {
+        "countyName": "Seydikemer"
+      },
+      {
+        "countyName": "Ula"
+      },
+      {
+        "countyName": "Yatağan"
+      }
+    ]
+  },
+  {
+    "provinceName": "Muş",
+    "provinceCounties": [
+      {
+        "countyName": "Bulanık"
+      },
+      {
+        "countyName": "Hasköy"
+      },
+      {
+        "countyName": "Korkut"
+      },
+      {
+        "countyName": "Malazgirt"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Varto"
+      }
+    ]
+  },
+  {
+    "provinceName": "Nevşehir",
+    "provinceCounties": [
+      {
+        "countyName": "Acıgöl"
+      },
+      {
+        "countyName": "Avanos"
+      },
+      {
+        "countyName": "Derinkuyu"
+      },
+      {
+        "countyName": "Gülşehir"
+      },
+      {
+        "countyName": "Hacıbektaş"
+      },
+      {
+        "countyName": "Kozaklı"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Ürgüp"
+      }
+    ]
+  },
+  {
+    "provinceName": "Niğde",
+    "provinceCounties": [
+      {
+        "countyName": "Altunhisar"
+      },
+      {
+        "countyName": "Bor"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Ulukışla"
+      },
+      {
+        "countyName": "Çamardı"
+      },
+      {
+        "countyName": "Çiftlik"
+      }
+    ]
+  },
+  {
+    "provinceName": "Ordu",
+    "provinceCounties": [
+      {
+        "countyName": "Akkuş"
+      },
+      {
+        "countyName": "Altınordu"
+      },
+      {
+        "countyName": "Aybastı"
+      },
+      {
+        "countyName": "Fatsa"
+      },
+      {
+        "countyName": "Gölköy"
+      },
+      {
+        "countyName": "Gülyalı"
+      },
+      {
+        "countyName": "Gürgentepe"
+      },
+      {
+        "countyName": "Kabadüz"
+      },
+      {
+        "countyName": "Kabataş"
+      },
+      {
+        "countyName": "Korgan"
+      },
+      {
+        "countyName": "Kumru"
+      },
+      {
+        "countyName": "Mesudiye"
+      },
+      {
+        "countyName": "Perşembe"
+      },
+      {
+        "countyName": "Ulubey"
+      },
+      {
+        "countyName": "Çamaş"
+      },
+      {
+        "countyName": "Çatalpınar"
+      },
+      {
+        "countyName": "Çaybaşı"
+      },
+      {
+        "countyName": "Ünye"
+      },
+      {
+        "countyName": "İkizce"
+      }
+    ]
+  },
+  {
+    "provinceName": "Osmaniye",
+    "provinceCounties": [
+      {
+        "countyName": "Bahçe"
+      },
+      {
+        "countyName": "Düziçi"
+      },
+      {
+        "countyName": "Hasanbeyli"
+      },
+      {
+        "countyName": "Kadirli"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Sumbas"
+      },
+      {
+        "countyName": "Toprakkale"
+      }
+    ]
+  },
+  {
+    "provinceName": "Rize",
+    "provinceCounties": [
+      {
+        "countyName": "Ardeşen"
+      },
+      {
+        "countyName": "Derepazarı"
+      },
+      {
+        "countyName": "Fındıklı"
+      },
+      {
+        "countyName": "Güneysu"
+      },
+      {
+        "countyName": "Hemşin"
+      },
+      {
+        "countyName": "Kalkandere"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Pazar"
+      },
+      {
+        "countyName": "Çamlıhemşin"
+      },
+      {
+        "countyName": "Çayeli"
+      },
+      {
+        "countyName": "İkizdere"
+      },
+      {
+        "countyName": "İyidere"
+      }
+    ]
+  },
+  {
+    "provinceName": "Sakarya",
+    "provinceCounties": [
+      {
+        "countyName": "Adapazarı"
+      },
+      {
+        "countyName": "Akyazı"
+      },
+      {
+        "countyName": "Arifiye"
+      },
+      {
+        "countyName": "Erenler"
+      },
+      {
+        "countyName": "Ferizli"
+      },
+      {
+        "countyName": "Geyve"
+      },
+      {
+        "countyName": "Hendek"
+      },
+      {
+        "countyName": "Karapürçek"
+      },
+      {
+        "countyName": "Karasu"
+      },
+      {
+        "countyName": "Kaynarca"
+      },
+      {
+        "countyName": "Kocaali"
+      },
+      {
+        "countyName": "Pamukova"
+      },
+      {
+        "countyName": "Sapanca"
+      },
+      {
+        "countyName": "Serdivan"
+      },
+      {
+        "countyName": "Söğütlü"
+      },
+      {
+        "countyName": "Taraklı"
+      }
+    ]
+  },
+  {
+    "provinceName": "Samsun",
+    "provinceCounties": [
+      {
+        "countyName": "19 mayıs"
+      },
+      {
+        "countyName": "Alaçam"
+      },
+      {
+        "countyName": "Asarcık"
+      },
+      {
+        "countyName": "Atakum"
+      },
+      {
+        "countyName": "Ayvacık"
+      },
+      {
+        "countyName": "Bafra"
+      },
+      {
+        "countyName": "Canik"
+      },
+      {
+        "countyName": "Havza"
+      },
+      {
+        "countyName": "Kavak"
+      },
+      {
+        "countyName": "Ladik"
+      },
+      {
+        "countyName": "Salıpazarı"
+      },
+      {
+        "countyName": "Tekkeköy"
+      },
+      {
+        "countyName": "Terme"
+      },
+      {
+        "countyName": "Vezirköprü"
+      },
+      {
+        "countyName": "Yakakent"
+      },
+      {
+        "countyName": "Çarşamba"
+      },
+      {
+        "countyName": "İlkadım"
+      }
+    ]
+  },
+  {
+    "provinceName": "Siirt",
+    "provinceCounties": [
+      {
+        "countyName": "Baykan"
+      },
+      {
+        "countyName": "Eruh"
+      },
+      {
+        "countyName": "Kurtalan"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Pervari"
+      },
+      {
+        "countyName": "Tillo"
+      },
+      {
+        "countyName": "Şirvan"
+      }
+    ]
+  },
+  {
+    "provinceName": "Sinop",
+    "provinceCounties": [
+      {
+        "countyName": "Ayancık"
+      },
+      {
+        "countyName": "Boyabat"
+      },
+      {
+        "countyName": "Dikmen"
+      },
+      {
+        "countyName": "Durağan"
+      },
+      {
+        "countyName": "Erfelek"
+      },
+      {
+        "countyName": "Gerze"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Saraydüzü"
+      },
+      {
+        "countyName": "Türkeli"
+      }
+    ]
+  },
+  {
+    "provinceName": "Sivas",
+    "provinceCounties": [
+      {
+        "countyName": "Akıncılar"
+      },
+      {
+        "countyName": "Altınyayla"
+      },
+      {
+        "countyName": "Divriği"
+      },
+      {
+        "countyName": "Doğanşar"
+      },
+      {
+        "countyName": "Gemerek"
+      },
+      {
+        "countyName": "Gölova"
+      },
+      {
+        "countyName": "Gürün"
+      },
+      {
+        "countyName": "Hafik"
+      },
+      {
+        "countyName": "Kangal"
+      },
+      {
+        "countyName": "Koyulhisar"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Suşehri"
+      },
+      {
+        "countyName": "Ulaş"
+      },
+      {
+        "countyName": "Yıldızeli"
+      },
+      {
+        "countyName": "Zara"
+      },
+      {
+        "countyName": "İmranlı"
+      },
+      {
+        "countyName": "Şarkışla"
+      }
+    ]
+  },
+  {
+    "provinceName": "Tekirdağ",
+    "provinceCounties": [
+      {
+        "countyName": "Ergene"
+      },
+      {
+        "countyName": "Hayrabolu"
+      },
+      {
+        "countyName": "Kapaklı"
+      },
+      {
+        "countyName": "Malkara"
+      },
+      {
+        "countyName": "Marmaraereğlisi"
+      },
+      {
+        "countyName": "Muratlı"
+      },
+      {
+        "countyName": "Saray"
+      },
+      {
+        "countyName": "Süleymanpaşa"
+      },
+      {
+        "countyName": "Çerkezköy"
+      },
+      {
+        "countyName": "Çorlu"
+      },
+      {
+        "countyName": "Şarköy"
+      }
+    ]
+  },
+  {
+    "provinceName": "Tokat",
+    "provinceCounties": [
+      {
+        "countyName": "Almus"
+      },
+      {
+        "countyName": "Artova"
+      },
+      {
+        "countyName": "Başçiftlik"
+      },
+      {
+        "countyName": "Erbaa"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Niksar"
+      },
+      {
+        "countyName": "Pazar"
+      },
+      {
+        "countyName": "Reşadiye"
+      },
+      {
+        "countyName": "Sulusaray"
+      },
+      {
+        "countyName": "Turhal"
+      },
+      {
+        "countyName": "Yeşilyurt"
+      },
+      {
+        "countyName": "Zile"
+      }
+    ]
+  },
+  {
+    "provinceName": "Trabzon",
+    "provinceCounties": [
+      {
+        "countyName": "Akçaabat"
+      },
+      {
+        "countyName": "Araklı"
+      },
+      {
+        "countyName": "Arsin"
+      },
+      {
+        "countyName": "Beşikdüzü"
+      },
+      {
+        "countyName": "Dernekpazarı"
+      },
+      {
+        "countyName": "Düzköy"
+      },
+      {
+        "countyName": "Hayrat"
+      },
+      {
+        "countyName": "Köprübaşı"
+      },
+      {
+        "countyName": "Maçka"
+      },
+      {
+        "countyName": "Of"
+      },
+      {
+        "countyName": "Ortahisar"
+      },
+      {
+        "countyName": "Sürmene"
+      },
+      {
+        "countyName": "Tonya"
+      },
+      {
+        "countyName": "Vakfıkebir"
+      },
+      {
+        "countyName": "Yomra"
+      },
+      {
+        "countyName": "Çarşıbaşı"
+      },
+      {
+        "countyName": "Çaykara"
+      },
+      {
+        "countyName": "Şalpazarı"
+      }
+    ]
+  },
+  {
+    "provinceName": "Tunceli",
+    "provinceCounties": [
+      {
+        "countyName": "Hozat"
+      },
+      {
+        "countyName": "Mazgirt"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Nazımiye"
+      },
+      {
+        "countyName": "Ovacık"
+      },
+      {
+        "countyName": "Pertek"
+      },
+      {
+        "countyName": "Pülümür"
+      },
+      {
+        "countyName": "Çemişgezek"
+      }
+    ]
+  },
+  {
+    "provinceName": "Uşak",
+    "provinceCounties": [
+      {
+        "countyName": "Banaz"
+      },
+      {
+        "countyName": "Eşme"
+      },
+      {
+        "countyName": "Karahallı"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Sivaslı"
+      },
+      {
+        "countyName": "Ulubey"
+      }
+    ]
+  },
+  {
+    "provinceName": "Van",
+    "provinceCounties": [
+      {
+        "countyName": "Bahçesaray"
+      },
+      {
+        "countyName": "Başkale"
+      },
+      {
+        "countyName": "Edremit"
+      },
+      {
+        "countyName": "Erciş"
+      },
+      {
+        "countyName": "Gevaş"
+      },
+      {
+        "countyName": "Gürpınar"
+      },
+      {
+        "countyName": "Muradiye"
+      },
+      {
+        "countyName": "Saray"
+      },
+      {
+        "countyName": "Tuşba"
+      },
+      {
+        "countyName": "Çaldıran"
+      },
+      {
+        "countyName": "Çatak"
+      },
+      {
+        "countyName": "Özalp"
+      },
+      {
+        "countyName": "İpekyolu"
+      }
+    ]
+  },
+  {
+    "provinceName": "Yalova",
+    "provinceCounties": [
+      {
+        "countyName": "Altınova"
+      },
+      {
+        "countyName": "Armutlu"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Termal"
+      },
+      {
+        "countyName": "Çiftlikköy"
+      },
+      {
+        "countyName": "Çınarcık"
+      }
+    ]
+  },
+  {
+    "provinceName": "Yozgat",
+    "provinceCounties": [
+      {
+        "countyName": "Akdağmadeni"
+      },
+      {
+        "countyName": "Aydıncık"
+      },
+      {
+        "countyName": "Boğazlıyan"
+      },
+      {
+        "countyName": "Kadışehri"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Saraykent"
+      },
+      {
+        "countyName": "Sarıkaya"
+      },
+      {
+        "countyName": "Sorgun"
+      },
+      {
+        "countyName": "Yenifakılı"
+      },
+      {
+        "countyName": "Yerköy"
+      },
+      {
+        "countyName": "Çandır"
+      },
+      {
+        "countyName": "Çayıralan"
+      },
+      {
+        "countyName": "Çekerek"
+      },
+      {
+        "countyName": "Şefaatli"
+      }
+    ]
+  },
+  {
+    "provinceName": "Zonguldak",
+    "provinceCounties": [
+      {
+        "countyName": "Alaplı"
+      },
+      {
+        "countyName": "Devrek"
+      },
+      {
+        "countyName": "Ereğli"
+      },
+      {
+        "countyName": "Gökçebey"
+      },
+      {
+        "countyName": "Kilimli"
+      },
+      {
+        "countyName": "Kozlu"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Çaycuma"
+      }
+    ]
+  },
+  {
+    "provinceName": "Çanakkale",
+    "provinceCounties": [
+      {
+        "countyName": "Ayvacık"
+      },
+      {
+        "countyName": "Bayramiç"
+      },
+      {
+        "countyName": "Biga"
+      },
+      {
+        "countyName": "Bozcaada"
+      },
+      {
+        "countyName": "Eceabat"
+      },
+      {
+        "countyName": "Ezine"
+      },
+      {
+        "countyName": "Gelibolu"
+      },
+      {
+        "countyName": "Gökçeada"
+      },
+      {
+        "countyName": "Lapseki"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Yenice"
+      },
+      {
+        "countyName": "Çan"
+      }
+    ]
+  },
+  {
+    "provinceName": "Çankırı",
+    "provinceCounties": [
+      {
+        "countyName": "Atkaracalar"
+      },
+      {
+        "countyName": "Bayramören"
+      },
+      {
+        "countyName": "Eldivan"
+      },
+      {
+        "countyName": "Ilgaz"
+      },
+      {
+        "countyName": "Korgun"
+      },
+      {
+        "countyName": "Kurşunlu"
+      },
+      {
+        "countyName": "Kızılırmak"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Orta"
+      },
+      {
+        "countyName": "Yapraklı"
+      },
+      {
+        "countyName": "Çerkeş"
+      },
+      {
+        "countyName": "Şabanözü"
+      }
+    ]
+  },
+  {
+    "provinceName": "Çorum",
+    "provinceCounties": [
+      {
+        "countyName": "Alaca"
+      },
+      {
+        "countyName": "Bayat"
+      },
+      {
+        "countyName": "Boğazkale"
+      },
+      {
+        "countyName": "Dodurga"
+      },
+      {
+        "countyName": "Kargı"
+      },
+      {
+        "countyName": "Laçin"
+      },
+      {
+        "countyName": "Mecitözü"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Ortaköy"
+      },
+      {
+        "countyName": "Osmancık"
+      },
+      {
+        "countyName": "Oğuzlar"
+      },
+      {
+        "countyName": "Sungurlu"
+      },
+      {
+        "countyName": "Uğurludağ"
+      },
+      {
+        "countyName": "İskilip"
+      }
+    ]
+  },
+  {
+    "provinceName": "İstanbul",
+    "provinceCounties": [
+      {
+        "countyName": "Adalar"
+      },
+      {
+        "countyName": "Arnavutköy"
+      },
+      {
+        "countyName": "Ataşehir"
+      },
+      {
+        "countyName": "Avcılar"
+      },
+      {
+        "countyName": "Bahçelievler"
+      },
+      {
+        "countyName": "Bakırköy"
+      },
+      {
+        "countyName": "Bayrampaşa"
+      },
+      {
+        "countyName": "Bağcılar"
+      },
+      {
+        "countyName": "Başakşehir"
+      },
+      {
+        "countyName": "Beykoz"
+      },
+      {
+        "countyName": "Beylikdüzü"
+      },
+      {
+        "countyName": "Beyoğlu"
+      },
+      {
+        "countyName": "Beşiktaş"
+      },
+      {
+        "countyName": "Büyükçekmece"
+      },
+      {
+        "countyName": "Esenler"
+      },
+      {
+        "countyName": "Esenyurt"
+      },
+      {
+        "countyName": "Eyüpsultan"
+      },
+      {
+        "countyName": "Fatih"
+      },
+      {
+        "countyName": "Gaziosmanpaşa"
+      },
+      {
+        "countyName": "Güngören"
+      },
+      {
+        "countyName": "Kadıköy"
+      },
+      {
+        "countyName": "Kartal"
+      },
+      {
+        "countyName": "Kağıthane"
+      },
+      {
+        "countyName": "Küçükçekmece"
+      },
+      {
+        "countyName": "Maltepe"
+      },
+      {
+        "countyName": "Pendik"
+      },
+      {
+        "countyName": "Sancaktepe"
+      },
+      {
+        "countyName": "Sarıyer"
+      },
+      {
+        "countyName": "Silivri"
+      },
+      {
+        "countyName": "Sultanbeyli"
+      },
+      {
+        "countyName": "Sultangazi"
+      },
+      {
+        "countyName": "Tuzla"
+      },
+      {
+        "countyName": "Zeytinburnu"
+      },
+      {
+        "countyName": "Çatalca"
+      },
+      {
+        "countyName": "Çekmeköy"
+      },
+      {
+        "countyName": "Ümraniye"
+      },
+      {
+        "countyName": "Üsküdar"
+      },
+      {
+        "countyName": "Şile"
+      },
+      {
+        "countyName": "Şişli"
+      }
+    ]
+  },
+  {
+    "provinceName": "İzmir",
+    "provinceCounties": [
+      {
+        "countyName": "Aliağa"
+      },
+      {
+        "countyName": "Balçova"
+      },
+      {
+        "countyName": "Bayraklı"
+      },
+      {
+        "countyName": "Bayındır"
+      },
+      {
+        "countyName": "Bergama"
+      },
+      {
+        "countyName": "Beydağ"
+      },
+      {
+        "countyName": "Bornova"
+      },
+      {
+        "countyName": "Buca"
+      },
+      {
+        "countyName": "Dikili"
+      },
+      {
+        "countyName": "Foça"
+      },
+      {
+        "countyName": "Gaziemir"
+      },
+      {
+        "countyName": "Güzelbahçe"
+      },
+      {
+        "countyName": "Karabağlar"
+      },
+      {
+        "countyName": "Karaburun"
+      },
+      {
+        "countyName": "Karşıyaka"
+      },
+      {
+        "countyName": "Kemalpaşa"
+      },
+      {
+        "countyName": "Kiraz"
+      },
+      {
+        "countyName": "Konak"
+      },
+      {
+        "countyName": "Kınık"
+      },
+      {
+        "countyName": "Menderes"
+      },
+      {
+        "countyName": "Menemen"
+      },
+      {
+        "countyName": "Narlıdere"
+      },
+      {
+        "countyName": "Seferihisar"
+      },
+      {
+        "countyName": "Selçuk"
+      },
+      {
+        "countyName": "Tire"
+      },
+      {
+        "countyName": "Torbalı"
+      },
+      {
+        "countyName": "Urla"
+      },
+      {
+        "countyName": "Çeşme"
+      },
+      {
+        "countyName": "Çiğli"
+      },
+      {
+        "countyName": "Ödemiş"
+      }
+    ]
+  },
+  {
+    "provinceName": "Şanlıurfa",
+    "provinceCounties": [
+      {
+        "countyName": "Akçakale"
+      },
+      {
+        "countyName": "Birecik"
+      },
+      {
+        "countyName": "Bozova"
+      },
+      {
+        "countyName": "Ceylanpınar"
+      },
+      {
+        "countyName": "Eyyübiye"
+      },
+      {
+        "countyName": "Halfeti"
+      },
+      {
+        "countyName": "Haliliye"
+      },
+      {
+        "countyName": "Harran"
+      },
+      {
+        "countyName": "Hilvan"
+      },
+      {
+        "countyName": "Karaköprü"
+      },
+      {
+        "countyName": "Siverek"
+      },
+      {
+        "countyName": "Suruç"
+      },
+      {
+        "countyName": "Viranşehir"
+      }
+    ]
+  },
+  {
+    "provinceName": "Şırnak",
+    "provinceCounties": [
+      {
+        "countyName": "Beytüşşebap"
+      },
+      {
+        "countyName": "Cizre"
+      },
+      {
+        "countyName": "Güçlükonak"
+      },
+      {
+        "countyName": "Merkez"
+      },
+      {
+        "countyName": "Silopi"
+      },
+      {
+        "countyName": "Uludere"
+      },
+      {
+        "countyName": "İdil"
+      }
+    ]
+  }
+]

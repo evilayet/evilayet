@@ -9,7 +9,6 @@ import (
 	"testing"
 )
 
-
 func TestGetProvinces(t *testing.T) {
 	t.Parallel()
 
@@ -26,11 +25,13 @@ func TestGetProvince(t *testing.T) {
 	t.Parallel()
 
 	mock := Province{ProvinceName: "Edirne"}
+	var res Province
 
 	w := httptest.NewRecorder()
+	w.Header().Set("Content-Type", "application/json")
 	r, _ := http.NewRequest("GET", "/provinces/{provinceName}", nil)
 
-	vars := map[string]string {
+	vars := map[string]string{
 		"provinceName": "edi",
 	}
 
@@ -38,9 +39,14 @@ func TestGetProvince(t *testing.T) {
 
 	GetProvince(w, r)
 
-	mockBytes, _ := json.Marshal(mock)
+	err := json.Unmarshal(w.Body.Bytes(), &res)
+
+	if err != nil {
+		t.Logf("Cant deserialize %v", err)
+	}
+
+	t.Logf("%v", res)
 
 	assert.Equal(t, http.StatusOK, w.Code)
-	assert.Equal(t, mockBytes, w.Body)
-
+	assert.Equal(t, mock, res)
 }

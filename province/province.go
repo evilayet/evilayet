@@ -19,7 +19,6 @@ type Province struct {
 var provinces []Province
 
 func init() {
-	log.Println("bura")
 	f, err := os.Open("province.json")
 
 	if err != nil {
