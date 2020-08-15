@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/enesusta/tzone/city"
+	"github.com/enesusta/tzone/county"
+	"github.com/enesusta/tzone/province"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
@@ -10,8 +11,10 @@ import (
 func main() {
 	r := mux.NewRouter()
 
-	r.HandleFunc("/cities", city.GetCities).Methods("GET")
-	r.HandleFunc("/city", city.GetCity).Methods("GET")
+	r.HandleFunc("/provinces", province.GetCities).Methods("GET")
+	r.HandleFunc("/provinces/{provinceName}", province.GetCity).Methods("GET")
+	r.HandleFunc("/counties", county.GetCounties).Methods("GET")
+	r.HandleFunc("/counties/{provinceName}", county.GetCounty).Methods("GET")
 
 	log.Fatal(http.ListenAndServe(":8080", r))
 }
