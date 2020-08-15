@@ -1,4 +1,5 @@
 <div align="center"> 
+
 `tzone` is a rest API that wrote in `golang` and it serves address information for Turkey
 
 </div>
@@ -8,8 +9,12 @@ I have needed a rest API that serves the address location to my ERP(enterprise r
 
 PTT already has presented [data that contains address information for Turkey](https://postakodu.ptt.gov.tr/). But the problem is: the data is not relational and its file format is xlsx(Microsoft Excel Open XML Spreadsheet) that doesn't fit to rest API.
 
+What do I mean by '`it doesn't fit to rest API`' ?
 
-## Raw Data
+Let's look at the raw data that has provided by PTT.
+
+
+## Raw data before parsing
 
 <div align="center">
 
@@ -48,7 +53,9 @@ Precisely for this reason, `I had to write a xlsx parser` that parses xlsx file 
 
 Thus, [tzone-parser](https://github.com/enesusta/tzone-parser) was written.
 
-## the data parsed by `tzone-parser`
+tzone-parser is not only parsed the file. It also `provides relational data` for each record.
+
+## The data parsed by `tzone-parser`
 
 ```json
 {
@@ -94,5 +101,4 @@ Thus, [tzone-parser](https://github.com/enesusta/tzone-parser) was written.
 }
 ```
 
-
-List of libraries used in tzone and written by me personally.
+List of libraries used in tzone which written by me personally.

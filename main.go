@@ -4,6 +4,7 @@ import (
 	"github.com/enesusta/tzone/county"
 	"github.com/enesusta/tzone/province"
 	"github.com/enesusta/tzone/town"
+	"github.com/enesusta/tzone/village"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
@@ -19,6 +20,10 @@ func main() {
 	r.HandleFunc("/towns", town.GetTowns).Methods("GET")
 	r.HandleFunc("/towns/{provinceName}", town.GetTown).Methods("GET")
 	r.HandleFunc("/towns/{provinceName}/{countyName}", town.GetSpecificTown).Methods("GET")
+	r.HandleFunc("/villages", village.GetAllVillages).Methods("GET")
+	r.HandleFunc("/villages/{provinceName}", village.GetVillagesOfProvince).Methods("GET")
+	r.HandleFunc("/villages/{provinceName}/{countyName}", village.GetVillagesOfCounty).Methods("GET")
+
 
 	log.Fatal(http.ListenAndServe(":8080", r))
 }
