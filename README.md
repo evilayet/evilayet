@@ -42,8 +42,11 @@
       - [Sample Request](#sample-request-8)
       - [Sample Response](#sample-response-8)
     - [/villages/{provinceName}/{countyName}](#villagesprovincenamecountyname)
+      - [Sample Request](#sample-request-9)
+      - [Sample Response](#sample-response-9)
     - [/villages/{provinceName}/{countyName}/{townName}](#villagesprovincenamecountynametownname)
-
+      - [Sample Request](#sample-request-10)
+      - [Sample Response](#sample-response-10)
 
 ## 🕺 Install
 
@@ -62,7 +65,7 @@ What do I mean by '`it doesn't fit to rest API`' ?
 Let's look at the raw data that have provided by PTT.
 
 
-## 📥 Raw Data Before Parsing
+## Raw Data Before Parsing
 
 <br />
 
@@ -105,7 +108,7 @@ Thus, [tzone-parser](https://github.com/enesusta/tzone-parser) was written.
 
 tzone-parser is not only parsed the file. It also `provides relational data` for each record.
 
-## 📤 The data parsed by `tzone-parser`
+## The data parsed by `tzone-parser`
 
 ```json
 {
@@ -380,7 +383,7 @@ http://localhost:8080/counties/istanbul
 ]
 ``` 
 
-### /towns
+### `/towns`
 
 > This endpoint returns all towns and their names that Turkey has.
 
@@ -478,7 +481,7 @@ http://localhost:8080/towns
 ```
 
 
-### /towns/{provinceName}
+### `/towns/{provinceName}`
 
 | Param | Type | Description |
 | -- | -- | -- |
@@ -489,7 +492,7 @@ http://localhost:8080/towns
 #### Sample Request 6
 
 ```http
-http://localhost:8080/bolu
+http://localhost:8080/towns/bolu
 ```
 
 #### Sample Response 6
@@ -565,7 +568,7 @@ http://localhost:8080/bolu
 ]
 ```
 
-### /towns/{provinceName}/{countyName}
+### `/towns/{provinceName}/{countyName}`
 
 | Param | Type | Description |
 | -- | -- | -- |
@@ -592,11 +595,11 @@ http://localhost:8080/towns/istanbul/adalar
 }
 ```
 
-### /villages
+### `/villages`
 
 This endpoint returns all villages with their name and their zip-code that Turkey has.
 
-### /villages/{provinceName}
+### `/villages/{provinceName}`
 
 | Param | Type | Description |
 | -- | -- | -- |
@@ -1163,7 +1166,7 @@ http://localhost:8080/villages/edirne
 }
 ```
 
-### /villages/{provinceName}/{countyName}
+### `/villages/{provinceName}/{countyName}`
 
 | Param | Type | Description |
 | -- | -- | -- |
@@ -1261,7 +1264,7 @@ http://localhost:8080/villages/edirne/merkez
 ```
 
 
-### /villages/{provinceName}/{countyName}/{townName}
+### `/villages/{provinceName}/{countyName}/{townName}`
 
 | Param | Type | Description |
 | -- | -- | -- |
@@ -1274,10 +1277,10 @@ http://localhost:8080/villages/edirne/merkez
 #### Sample Request 10
 
 ```http
-http://localhost:8080/villages/edirne/merkez
+http://localhost:8080/villages/edirne/merkez/edirne
 ```
 
-#### Sample Request 10
+#### Sample Response 10
 
 ```json
 {

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  tzone:
+    container_name: tzone
+    image: enesusta/tzone:1.0
+    ports:
+      - 8000:12071
