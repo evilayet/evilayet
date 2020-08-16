@@ -50,9 +50,50 @@
 
 ## 🕺 Install
 
+tzone runs on `12071 HTTP` port.
+
+### Locally
+
+If you're running tzone on your machine, after instruction that listed below go to your browser and type:
+http://localhost:12071/provinces
+
 ```
 go get -u github.com/enesusta/tzone
+cd $GOPATH/src/github/enesusta/tzone
+go build
+./tzone.exe
 ```
+
+### With Docker
+
+> You are not familiar with docker, you can skip this section.
+
+tzone has already been containerized and has deployed to hub.docker.com. Check that [link](https://hub.docker.com/repository/docker/enesusta/tzone)
+
+You can mapping the ports whatever you want. The most important thing is tzone runs on `12071 HTTP port`. You must consider this during configure your mapping.
+
+-  With CLI
+
+```bash
+docker run --name tzone -d -p 8080:12071 enesusta/tzone:1.0
+```
+
+-  With docker-compose
+
+Let's look at this sample.
+
+`docker-compose.yml`
+```yml
+version: '3'
+
+services:
+  tzone:
+    container_name: tzone
+    image: enesusta/tzone:1.0
+    ports:
+      - 8080:12071
+```
+
 
 ## 📯 Preface
 
@@ -67,8 +108,7 @@ To better understand what this application does let's look at this picture that 
 
 > This illustration illustrates how tzone works.
 
-![](https://raw.githubusercontent.com/enesusta/assets-host-for-github-pages/assets/tzone/tzone.svg)
-
+![](https://raw.githubusercontent.com/enesusta/assets-host-for-github-pages/assets/tzone/tzone2.svg)
 
 What do I mean by '`it doesn't fit to rest API`' ?
 

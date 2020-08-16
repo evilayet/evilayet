@@ -5,4 +5,4 @@ services:
     container_name: tzone
     image: enesusta/tzone:1.0
     ports:
-      - 8000:12071
+      - 8080:12071
