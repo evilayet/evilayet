@@ -64,6 +64,29 @@ go build
 ./tzone.exe
 ```
 
+#### Cors
+
+Tzone has configuration that listed below.
+
+If would you like to configure tzone to your server/website. Change AllowedOrigins value.
+
+```go
+c := cors.New(cors.Options{
+		AllowedOrigins: []string{"*"}, // All origins
+		AllowedMethods: []string{"GET"}, // Allowing only get, just an example
+})
+```
+
+For example:
+
+```go
+c := cors.New(cors.Options{
+		AllowedOrigins: []string{"https://enesusta.tech"}, // Only accessible from enesusta.tech
+		AllowedMethods: []string{"GET"}, // Allowing only get, just an example
+})
+```
+
+
 ### With Docker
 
 > You are not familiar with docker, you can skip this section.
@@ -89,7 +112,7 @@ version: '3'
 services:
   tzone:
     container_name: tzone
-    image: enesusta/tzone:1.0
+    image: enesusta/tzone:1.1
     ports:
       - 8080:12071
 ```
