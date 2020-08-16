@@ -75,7 +75,7 @@ You can mapping the ports whatever you want. The most important thing is tzone r
 -  With CLI
 
 ```bash
-docker run --name tzone -d -p 8080:12071 enesusta/tzone:1.0
+docker run --name tzone -d -p 8080:12071 enesusta/tzone:1.1
 ```
 
 -  With docker-compose
