@@ -60,6 +60,16 @@ I have needed a rest API that serves the address location to my ERP(enterprise r
 
 PTT already has presented [data that contains address information for Turkey](https://postakodu.ptt.gov.tr/). But the problem is: the data is not relational and its file format is xlsx(Microsoft Excel Open XML Spreadsheet) that doesn't fit to rest API.
 
+To better understand what this application does let's look at this picture that shows `how much record exists in data` that have provided by PTT.
+
+![](https://raw.githubusercontent.com/enesusta/assets-host-for-github-pages/assets/tzone/tzone-1.png)
+
+
+> This illustration illustrates how tzone works.
+
+![](https://raw.githubusercontent.com/enesusta/assets-host-for-github-pages/assets/tzone/tzone.svg)
+
+
 What do I mean by '`it doesn't fit to rest API`' ?
 
 Let's look at the raw data that have provided by PTT.
