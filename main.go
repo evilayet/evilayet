@@ -6,6 +6,7 @@ import (
 	"github.com/enesusta/tzone/town"
 	"github.com/enesusta/tzone/village"
 	"github.com/gorilla/mux"
+	"github.com/rs/cors"
 	"log"
 	"net/http"
 )
@@ -26,5 +27,10 @@ func main() {
 	r.HandleFunc("/villages/{provinceName}/{countyName}/{townName}", village.GetVillagesOfTown).Methods("GET")
 
 
-	log.Fatal(http.ListenAndServe(":12071", r))
+	c := cors.New(cors.Options{
+		AllowedOrigins: []string{"*"}, // All origins
+		AllowedMethods: []string{"GET"}, // Allowing only get, just an example
+	})
+
+	log.Fatal(http.ListenAndServe(":12071", c.Handler(r)))
 }
