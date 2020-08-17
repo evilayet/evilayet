@@ -60,14 +60,14 @@ func GetTown(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
+
+	w.WriteHeader(http.StatusNotFound)
 }
 
 func GetSpecificTown(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	provinceName := mux.Vars(r)["provinceName"]
 	countyName := mux.Vars(r)["countyName"]
-
-	log.Println("burada")
 
 	for _, item := range provinces {
 		if strings.Contains(item.ProvinceName, text.CapitalizeWithTurkish(provinceName)) {
@@ -79,4 +79,6 @@ func GetSpecificTown(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
+
+	w.WriteHeader(http.StatusNotFound)
 }

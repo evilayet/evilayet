@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/enesusta/tzone/county"
+	"github.com/enesusta/tzone/home"
 	"github.com/enesusta/tzone/province"
 	"github.com/enesusta/tzone/town"
 	"github.com/enesusta/tzone/village"
@@ -14,6 +15,7 @@ import (
 func main() {
 	r := mux.NewRouter()
 
+	r.HandleFunc("/", home.GetHome).Methods("GET")
 	r.HandleFunc("/provinces", province.GetProvinces).Methods("GET")
 	r.HandleFunc("/provinces/{provinceName}", province.GetProvince).Methods("GET")
 	r.HandleFunc("/counties", county.GetCounties).Methods("GET")

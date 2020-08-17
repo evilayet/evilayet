@@ -55,5 +55,6 @@ func GetProvince(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
-	json.NewEncoder(w).Encode(&Province{})
+
+	w.WriteHeader(http.StatusNotFound)
 }

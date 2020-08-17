@@ -66,6 +66,8 @@ func GetVillagesOfProvince(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
+
+	w.WriteHeader(http.StatusNotFound)
 }
 
 func GetVillagesOfCounty(w http.ResponseWriter, r *http.Request) {
@@ -83,6 +85,8 @@ func GetVillagesOfCounty(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
+
+	w.WriteHeader(http.StatusNotFound)
 }
 
 func GetVillagesOfTown(w http.ResponseWriter, r *http.Request) {
@@ -106,4 +110,5 @@ func GetVillagesOfTown(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
+	w.WriteHeader(http.StatusNotFound)
 }
