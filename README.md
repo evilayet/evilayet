@@ -47,7 +47,8 @@
     - [/villages/{provinceName}/{countyName}/{townName}](#villagesprovincenamecountynametownname)
       - [Sample Request](#sample-request-10)
       - [Sample Response](#sample-response-10)
-  - [Licence]
+  - [Licence](#licence)
+    - All code found in this repository is licensed under **CC BY-NC-ND**
 
 ## 🕺 Install
 
@@ -1390,23 +1391,10 @@ http://localhost:8080/villages/edirne/merkez/edirne
 
 ## Licence 
 
-All code found in this repository is licensed under GPL v3
+All code found in this repository is licensed under CC BY-NC-ND
 
-```
+This license is the most restrictive of our six main licenses, only allowing others to download your works and share them with others as long as they credit you, `but they can’t change them in any way or use them commercially.`
+
+[More Information](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 Copyright 2020 Enes Usta
-
-tzone is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-tzone is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with tzone. If not, see <http://www.gnu.org/licenses/>.
-```
-
-
