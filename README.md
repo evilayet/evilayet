@@ -15,6 +15,7 @@
   - [Preface](#-preface)
   - [Raw data before parsing](#raw-data-before-parsing)
   - [The data parsed by tzone-parser](#the-data-parsed-by-tzone-parser)
+  - [How you can consume this API?](#how-you-can-consume-this-api)
   - [CORS Options](#cors-options)
   - [Endpoints](#endpoints)
     - [/](#)
@@ -51,6 +52,9 @@
       - [Sample Response](#sample-response-10)
   - [Licence](#licence)
     - All code found in this repository is licensed under **CC BY-NC-ND**
+
+
+![](https://raw.githubusercontent.com/enesusta/assets-host-for-github-pages/assets/tzone/tzone-5.gif)
 
 ## 🕺 Install
 
@@ -213,6 +217,13 @@ tzone-parser is not only parsed the file. It also `provides relational data` for
    ]
 }
 ```
+
+### How you can consume this API?
+
+There is a React application that demonstrates how you can do this. It has written by me. 
+
+You can check it from [this link](https://github.com/enesusta/tzone-react)
+
 
 #### CORS Options
 
