@@ -25,6 +25,7 @@ COPY --from=builder /app/province.json /app/bin/province.json
 COPY --from=builder /app/county.json /app/bin/county.json
 COPY --from=builder /app/village.json /app/bin/village.json
 COPY --from=builder /app/towns.json /app/bin/towns.json
+COPY --from=builder /app/README.md /app/bin/README.md
 
 WORKDIR /app/bin
 

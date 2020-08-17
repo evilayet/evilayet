@@ -15,9 +15,7 @@
   - [Preface](#-preface)
   - [Raw data before parsing](#raw-data-before-parsing)
   - [The data parsed by tzone-parser](#the-data-parsed-by-tzone-parser)
-  - [CORS Options](#cors-options)
   - [Endpoints](#endpoints)
-    - [/](#)
     - [/provinces](#provinces)
       - [Sample Request](#sample-request-1)
       - [Sample Response](#sample-response-1)
@@ -68,9 +66,32 @@ go build
 ./tzone.exe
 ```
 
+#### Cors
+
+Tzone has configuration that listed below.
+
+If would you like to configure tzone to your server/website. Change AllowedOrigins value.
+
+```go
+c := cors.New(cors.Options{
+		AllowedOrigins: []string{"*"}, // All origins
+		AllowedMethods: []string{"GET"}, // Allowing only get, just an example
+})
+```
+
+For example:
+
+```go
+c := cors.New(cors.Options{
+		AllowedOrigins: []string{"https://enesusta.tech"}, // Only accessible from enesusta.tech
+		AllowedMethods: []string{"GET"}, // Allowing only get, just an example
+})
+```
+
+
 ### With Docker
 
-> If you're not familiar with docker, you can skip this section.
+> You are not familiar with docker, you can skip this section.
 
 tzone has already been containerized and has deployed to hub.docker.com. Check that [link](https://hub.docker.com/repository/docker/enesusta/tzone)
 
@@ -79,7 +100,7 @@ You can mapping the ports whatever you want. The most important thing is tzone r
 -  With CLI
 
 ```bash
-docker run --name tzone -d -p 8080:12071 enesusta/tzone:1.2
+docker run --name tzone -d -p 8080:12071 enesusta/tzone:1.1
 ```
 
 -  With docker-compose
@@ -93,15 +114,9 @@ version: '3'
 services:
   tzone:
     container_name: tzone
-    image: enesusta/tzone:1.2
+    image: enesusta/tzone:1.1
     ports:
       - 8080:12071
-```
-
-Then:
-
-```bash
-docker-compose up -d
 ```
 
 
@@ -214,33 +229,8 @@ tzone-parser is not only parsed the file. It also `provides relational data` for
 }
 ```
 
-#### CORS Options
-
-Tzone has configuration that listed below.
-
-If would you like to configure tzone to your server/website. Change AllowedOrigins value.
-
-```go
-c := cors.New(cors.Options{
-		AllowedOrigins: []string{"*"}, // All origins
-		AllowedMethods: []string{"GET"}, // Allowing only get, just an example
-})
-```
-
-For example:
-
-```go
-c := cors.New(cors.Options{
-		AllowedOrigins: []string{"https://enesusta.tech"}, // Only accessible from enesusta.tech
-		AllowedMethods: []string{"GET"}, // Allowing only get, just an example
-})
-```
 
 ## Endpoints
-
-### `/`
-
-This endpoint return a data that README.md has.
 
 ### `/provinces`
 
