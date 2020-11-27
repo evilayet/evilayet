@@ -8,7 +8,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"strings"
 )
 
 type Province struct {
@@ -25,7 +24,14 @@ type Town struct {
 	TownName string `json:"townName"`
 }
 
+type TownEntity struct {
+	ProvinceName string
+	CountyName   string
+}
+
 var provinces []Province
+var countiesMap = make(map[string]Province)
+var townsMap = make(map[TownEntity]County)
 
 func init() {
 	f, err := os.Open("towns.json")
@@ -43,42 +49,56 @@ func init() {
 	}
 
 	err = json.Unmarshal(byteValue, &provinces)
+	initializeKeyValueMapping(provinces)
+}
+
+func initializeKeyValueMapping(provinces []Province) {
+	for _, province := range provinces {
+		countiesMap[province.ProvinceName] = province
+	}
+
+	for key, value := range countiesMap {
+		for _, county := range value.ProvinceCounties {
+			townEntity := TownEntity{ProvinceName: key, CountyName: county.CountyName}
+			townsMap[townEntity] = county
+		}
+	}
 }
 
 func GetTowns(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(provinces)
+	_ = json.NewEncoder(w).Encode(provinces)
 }
 
 func GetTown(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	provinceName := mux.Vars(r)["provinceName"]
 
-	for _, item := range provinces {
-		if strings.Contains(item.ProvinceName, text.CapitalizeWithTurkish(provinceName)) {
-			json.NewEncoder(w).Encode(item.ProvinceCounties)
-			return
-		}
+	counties, ok := countiesMap[text.CapitalizeWithTurkish(provinceName)]
+
+	if !ok {
+		w.WriteHeader(http.StatusNotFound)
+		return
+	} else {
+		_ = json.NewEncoder(w).Encode(counties)
+		return
 	}
 
-	w.WriteHeader(http.StatusNotFound)
 }
 
 func GetSpecificTown(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	provinceName := mux.Vars(r)["provinceName"]
-	countyName := mux.Vars(r)["countyName"]
+	provinceName := text.CapitalizeWithTurkish(mux.Vars(r)["provinceName"])
+	countyName := text.CapitalizeWithTurkish(mux.Vars(r)["countyName"])
 
-	for _, item := range provinces {
-		if strings.Contains(item.ProvinceName, text.CapitalizeWithTurkish(provinceName)) {
-			for _, nest := range item.ProvinceCounties {
-				if strings.Contains(nest.CountyName, text.CapitalizeWithTurkish(countyName)) {
-					json.NewEncoder(w).Encode(nest)
-					return
-				}
-			}
-		}
+	townEntity := TownEntity{ProvinceName: provinceName, CountyName: countyName}
+	town, ok := townsMap[townEntity]
+
+	if !ok {
+		w.WriteHeader(http.StatusNotFound)
+		return
+	} else {
+		_ = json.NewEncoder(w).Encode(town)
+		return
 	}
-
-	w.WriteHeader(http.StatusNotFound)
 }

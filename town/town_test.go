@@ -33,7 +33,7 @@ func TestGetTown(t *testing.T) {
 	r, _ := http.NewRequest("GET", "/towns/{provinceName}", nil)
 
 	vars := map[string]string{
-		"provinceName": "edi",
+		"provinceName": "edirne",
 	}
 
 	r = mux.SetURLVars(r, vars)
@@ -68,8 +68,8 @@ func TestGetSpecificTown(t *testing.T) {
 	r, _ := http.NewRequest("GET", "/towns/{provinceName}", nil)
 
 	vars := map[string]string{
-		"provinceName": "ed",
-		"countyName":   "hav",
+		"provinceName": "edirne",
+		"countyName":   "havsa",
 	}
 
 	r = mux.SetURLVars(r, vars)

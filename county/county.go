@@ -8,7 +8,6 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"strings"
 )
 
 type Province struct {
@@ -20,9 +19,10 @@ type County struct {
 	CountyName string `json:"countyName"`
 }
 
-var provinces []Province
+var countiesMap = make(map[string][]County)
 
 func init() {
+	var provinces []Province
 	f, err := os.Open("county.json")
 
 	if err != nil {
@@ -38,10 +38,23 @@ func init() {
 	}
 
 	err = json.Unmarshal(byteValue, &provinces)
+	initializeKeyValueMapping(provinces)
+}
+
+func initializeKeyValueMapping(provinces []Province) {
+	for _, item := range provinces {
+		countiesMap[item.ProvinceName] = item.ProvinceCounties
+	}
 }
 
 func GetCounties(w http.ResponseWriter, r *http.Request) {
+	var provinces []Province
 	w.Header().Set("Content-Type", "application/json")
+
+	for key, value := range countiesMap {
+		provinces = append(provinces, Province{ProvinceName: key, ProvinceCounties: value})
+	}
+
 	json.NewEncoder(w).Encode(provinces)
 }
 
@@ -49,12 +62,13 @@ func GetCounty(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	name := mux.Vars(r)["provinceName"]
 
-	for _, item := range provinces {
-		if strings.Contains(item.ProvinceName, text.CapitalizeWithTurkish(name)) {
-			json.NewEncoder(w).Encode(item.ProvinceCounties)
-			return
-		}
-	}
+	counties, ok := countiesMap[text.CapitalizeWithTurkish(name)]
 
-	w.WriteHeader(http.StatusNotFound)
+	if !ok {
+		w.WriteHeader(http.StatusNotFound)
+		return
+	} else {
+		_ = json.NewEncoder(w).Encode(counties)
+		return
+	}
 }
