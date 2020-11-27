@@ -2,6 +2,13 @@ language: go
 go:
   - tip
 
+branches:
+  except:
+    - dev
+    - /^feature/TZONE-\d+$/
+  only:
+    - master
+
 before_install:
   - go get github.com/mattn/goveralls
 

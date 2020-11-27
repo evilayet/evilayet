@@ -30,7 +30,7 @@ type TownEntity struct {
 }
 
 var provinces []Province
-var countiesMap = make(map[string][]County)
+var countiesMap = make(map[string]Province)
 var townsMap = make(map[TownEntity]County)
 
 func init() {
@@ -54,11 +54,11 @@ func init() {
 
 func initializeKeyValueMapping(provinces []Province) {
 	for _, province := range provinces {
-		countiesMap[province.ProvinceName] = province.ProvinceCounties
+		countiesMap[province.ProvinceName] = province
 	}
 
 	for key, value := range countiesMap {
-		for _, county := range value {
+		for _, county := range value.ProvinceCounties {
 			townEntity := TownEntity{ProvinceName: key, CountyName: county.CountyName}
 			townsMap[townEntity] = county
 		}

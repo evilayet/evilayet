@@ -41,7 +41,7 @@ func TestGetCounty(t *testing.T) {
 	r, _ := http.NewRequest("GET", "/counties/{provinceName}", nil)
 
 	vars := map[string]string{
-		"provinceName": "ed",
+		"provinceName": "edirne",
 	}
 
 	r = mux.SetURLVars(r, vars)

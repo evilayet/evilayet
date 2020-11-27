@@ -42,7 +42,7 @@ type VillageEntity struct {
 }
 
 var provinces []Province
-var countiesMap = make(map[string][]County)
+var countiesMap = make(map[string]Province)
 var townsMap = make(map[TownEntity]County)
 var villagesMap = make(map[VillageEntity]Town)
 
@@ -67,11 +67,11 @@ func init() {
 
 func initializeKeyValueMapping(provinces []Province) {
 	for _, province := range provinces {
-		countiesMap[province.ProvinceName] = province.ProvinceCounties
+		countiesMap[province.ProvinceName] = province
 	}
 
 	for key, value := range countiesMap {
-		for _, county := range value {
+		for _, county := range value.ProvinceCounties {
 			townEntity := TownEntity{ProvinceName: key, CountyName: county.CountyName}
 			townsMap[townEntity] = county
 		}
@@ -87,7 +87,7 @@ func initializeKeyValueMapping(provinces []Province) {
 
 func GetAllVillages(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(provinces)
+	_ = json.NewEncoder(w).Encode(provinces)
 }
 
 func GetVillagesOfProvince(w http.ResponseWriter, r *http.Request) {
